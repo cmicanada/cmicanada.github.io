@@ -214,7 +214,7 @@ body { font-size: 1.25rem; line-height: 1.85; }
 
 /* Language choices share the green utility bar, with large click targets. */
 .topline .wrap { gap: 20px; min-height: 44px; padding-block: 0; }
-.topline-tagline { margin-left: auto; }
+.topline-tagline { margin-left: auto; letter-spacing: .2em; }
 .locale-switcher { display: flex; flex: none; gap: 4px; }
 .topline .locale-switcher a { display: inline-flex; align-items: center; justify-content: center; min-width: 64px; min-height: 44px; padding: 6px 12px; font-size: 1.125rem; line-height: 1.5; letter-spacing: 0; color: #e2e7dd; }
 .topline .locale-switcher a:hover { background: #ffffff18; color: #fff; }
