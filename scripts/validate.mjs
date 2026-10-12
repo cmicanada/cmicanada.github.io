@@ -6,6 +6,14 @@ import { locales, localizedPath, traditional, translate } from './locales.mjs';
 const site=JSON.parse(readFileSync('content/site.json','utf8'));
 const origin=JSON.parse(readFileSync('content/deployment.json','utf8')).origin;
 const root=process.cwd();
+const socialImagePaths=JSON.parse(readFileSync('content/social-preview.json','utf8'));
+const socialImageSizes=Object.fromEntries(locales.map(locale=>{
+ const bytes=readFileSync('.'+socialImagePaths[locale.code]);
+ assert.equal(bytes.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+ const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);
+ assert.ok(width>=1200&&height>=630&&Math.abs(width/height-1.91)<0.02,'Sharing card needs a high-resolution landscape canvas: '+locale.code);
+ return [locale.code,{width,height}];
+}));
 const errors=[];
 const fail=message=>errors.push(message);
 const decode=text=>text.replace(/&amp;/g,'&').replace(/&nbsp;/g,' ').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
@@ -15,9 +23,15 @@ function nodes(doc){const result=[];function walk(n){result.push(n);for(const c 
 function fileFor(route,locale){return path.join('.'+localizedPath(route,locale.code),'index.html');}
 function checkFile(file,locale,route='/'){
  const html=readFileSync(file,'utf8');
+ const socialImagePath=socialImagePaths[locale.code],{width:socialImageWidth,height:socialImageHeight}=socialImageSizes[locale.code];
  const all=nodes(parse(html));
  if(!all.some(n=>n.tagName==='link'&&attr(n,'rel')==='canonical'&&attr(n,'href')===origin+localizedPath(route,locale.code)))fail(`Wrong canonical: ${file}`);
- if(!html.includes(`<meta property="og:image" content="${origin}/`))fail(`Wrong social image origin: ${file}`);
+ const meta=(key)=>attr(all.find(n=>n.tagName==='meta'&&(attr(n,'property')===key||attr(n,'name')===key)),'content');
+ if(meta('og:image')!==origin+socialImagePath||meta('og:image:secure_url')!==meta('og:image')||meta('twitter:image')!==meta('og:image'))fail(`Wrong sharing image: ${file}`);
+ if(meta('og:image:type')!=='image/png'||meta('og:image:width')!==String(socialImageWidth)||meta('og:image:height')!==String(socialImageHeight))fail(`Wrong sharing image dimensions/type: ${file}`);
+ if(meta('og:url')!==origin+localizedPath(route,locale.code))fail(`Wrong social page URL: ${file}`);
+ if(meta('twitter:card')!=='summary_large_image'||meta('twitter:title')!==meta('og:title')||meta('twitter:description')!==meta('og:description'))fail(`Incomplete localized sharing metadata: ${file}`);
+ if(meta('og:image:alt')!==translate('CMI Canada 加拿大國際關懷協會',locale.code)||meta('twitter:image:alt')!==meta('og:image:alt'))fail(`Wrong sharing image description: ${file}`);
  if(!all.some(n=>n.tagName==='html'&&attr(n,'lang')===locale.lang))fail(`Wrong language: ${file}`);
  if((html.match(/<h1[ >]/g)||[]).length!==1)fail(`Expected one main heading: ${file}`);
  if(/Hydra|sales CRM|CloudCannon|Global Corp/.test(html))fail(`Old template text: ${file}`);

@@ -1,0 +1,35 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "file": "/assets/brand/cmi-social-preview-v1.png",
+  "width": 1732,
+  "height": 908,
+  "reference": "/assets/brand/cmi-logo-refined-v1.png",
+  "purpose": "Dedicated site-wide social sharing card; original sunset image remains preserved.",
+  "design": "Traditional Chinese mission headline, approved logo reference, ivory/forest-green/copper palette, illustrative globe and cross. No documentary ministry photo.",
+  "text": [
+    "福音進中華",
+    "福音出中華",
+    "同心關懷 · 跨文化宣教",
+    "cmicanada.github.io"
+  ],
+  "localeVariants": [
+    {
+      "locale": "zh-Hant",
+      "file": "/assets/brand/cmi-social-preview-v1.png",
+      "width": 1732,
+      "height": 908
+    },
+    {
+      "locale": "zh-Hans",
+      "file": "/assets/brand/cmi-social-preview-zh-hans-v1.png",
+      "width": 1733,
+      "height": 907
+    },
+    {
+      "locale": "en",
+      "file": "/assets/brand/cmi-social-preview-en-v1.png",
+      "width": 1733,
+      "height": 907
+    }
+  ]
+}
