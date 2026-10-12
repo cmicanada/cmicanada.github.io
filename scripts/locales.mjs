@@ -6,6 +6,18 @@ export const locales = [
  { code: 'zh-Hans', lang: 'zh-Hans-CA', prefix: '/zh-hans', label: '简体' },
  { code: 'en', lang: 'en-CA', prefix: '/en', label: 'EN' },
 ];
+const socialPreviewPaths = JSON.parse(readFileSync('content/social-preview.json', 'utf8'));
+const socialPreviews = Object.fromEntries(locales.map(locale => {
+ const src = socialPreviewPaths[locale.code];
+ if (typeof src !== 'string' || !src.startsWith('/assets/brand/') || !src.endsWith('.png')) throw new Error('Invalid social preview path: ' + locale.code);
+ const bytes = readFileSync('.' + src);
+ if (bytes.subarray(0, 8).toString('hex') !== '89504e470d0a1a0a') throw new Error('Social preview must be PNG: ' + src);
+ return [locale.code, {src, width:bytes.readUInt32BE(16), height:bytes.readUInt32BE(20)}];
+}));
+export function socialPreviewFor(code) {
+ if (!socialPreviews[code]) throw new Error('Unknown social preview locale: ' + code);
+ return socialPreviews[code];
+}
 export const traditional = OpenCC.Converter({ from: 'cn', to: 'tw' });
 const simplified = OpenCC.Converter({ from: 'tw', to: 'cn' });
 const english = JSON.parse(readFileSync('content/locales/en.json', 'utf8'));
@@ -55,7 +67,7 @@ const messages = {
 const attr = (node,name) => node.attrs?.find(a=>a.name===name)?.value;
 function setAttr(node,name,value) {const a=node.attrs.find(a=>a.name===name);if(a)a.value=value;else node.attrs.push({name,value});}
 export function localizeDocument(html, route, code, origin) {
- const locale=locales.find(l=>l.code===code), doc=parse(html);
+ const locale=locales.find(l=>l.code===code), doc=parse(html), socialPreview=socialPreviewFor(code);
  function walk(node, keep=false) {
   const ownKeep=keep || attr(node,'data-keep-locale')!==undefined;
   if (node.nodeName==='#text' && !ownKeep) node.value=translate(node.value,code);
@@ -65,10 +77,17 @@ export function localizeDocument(html, route, code, origin) {
   if(node.attrs && !ownKeep) {
    for(const a of node.attrs) {
     if(['alt','aria-label','placeholder','data-title','data-category','data-alt'].includes(a.name)) a.value=translate(a.value,code);
-    if(a.name==='content' && ['description'].includes(attr(node,'name'))) a.value=translate(a.value,code);
-    if(a.name==='content' && ['og:title','og:description'].includes(attr(node,'property'))) a.value=translate(a.value,code);
+    if(a.name==='content' && ['description','twitter:title','twitter:description','twitter:image:alt'].includes(attr(node,'name'))) a.value=translate(a.value,code);
+    if(a.name==='content' && ['og:title','og:description','og:image:alt'].includes(attr(node,'property'))) a.value=translate(a.value,code);
     if(a.name==='href' && a.value.startsWith('/')&&!a.value.startsWith('//')&&!a.value.startsWith('/assets/')&&!switchCode) a.value=locale.prefix+a.value;
    }
+   if(node.tagName==='meta') {
+    const key=attr(node,'property')||attr(node,'name');
+    if(['og:image','og:image:secure_url','twitter:image'].includes(key)) setAttr(node,'content',origin+socialPreview.src);
+    if(key==='og:image:width') setAttr(node,'content',String(socialPreview.width));
+    if(key==='og:image:height') setAttr(node,'content',String(socialPreview.height));
+   }
+   if(node.tagName==='meta'&&attr(node,'property')==='og:url') setAttr(node,'content',origin+localizedPath(route,code));
    if(node.tagName==='link'&&attr(node,'rel')==='canonical') setAttr(node,'href',origin+localizedPath(route,code));
    if(node.tagName==='time'&&attr(node,'datetime')) node.childNodes=[{nodeName:'#text',value:new Intl.DateTimeFormat(locale.lang,{year:'numeric',month:'long',day:'numeric',timeZone:'America/Toronto'}).format(new Date(attr(node,'datetime'))),parentNode:node}];
   }
