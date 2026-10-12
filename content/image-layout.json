@@ -1,0 +1,189 @@
+{
+  "images": {
+    "/assets/images/9bc60f_d32c3a9e1ccf47d59d12469b775e854a~mv2.jpg": {
+      "focalPoint": [
+        50,
+        60
+      ]
+    },
+    "/assets/images/9bc60f_1ca32a60471b4d4f98dbe740109039e8~mv2.jpeg": {
+      "focalPoint": [
+        50,
+        65
+      ]
+    },
+    "/assets/images/9bc60f_614dd6ac686942bfb8a00c65cfd5f260~mv2.jpg": {
+      "focalPoint": [
+        50,
+        65
+      ]
+    },
+    "/assets/images/9bc60f_15bcf0a7bd374c429b861faed11226e3~mv2.jpeg": {
+      "focalPoint": [
+        72,
+        40
+      ]
+    },
+    "/assets/images/9bc60f_ca786639299b4e03922421865acda02c~mv2.png": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/11062b_9fe8cf7ac275438cafa34f90833b0230~mv2.jpg": {
+      "fit": "contain"
+    },
+    "/assets/images/e38421_d963d7b74e4849ec886dd24b7fe09539~mv2.jpg": {
+      "focalPoint": [
+        50,
+        55
+      ]
+    },
+    "/assets/images/e38421_d44d3a0e33364643bb94dfedb065995b~mv2.png": {
+      "kind": "illustration",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_1ee70a2fbf6040aa9bcd71ca8eb700ed~mv2.jpg": {
+      "kind": "illustration",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_fe09e7449b304142b514c95f468ccf9b~mv2.jpg": {
+      "focalPoint": [
+        45,
+        45
+      ]
+    },
+    "/assets/images/e38421_0faf50f302234c78baf5333161190c5d~mv2.jpg": {
+      "focalPoint": [
+        25,
+        45
+      ]
+    },
+    "/assets/images/e38421_14f93da3037d43f7841c1c546e2d5786~mv2.jpg": {
+      "focalPoint": [
+        42,
+        50
+      ]
+    },
+    "/assets/images/e38421_3d1895ae630a4c51b79642e17e6184ad~mv2.jpg": {
+      "focalPoint": [
+        50,
+        55
+      ]
+    },
+    "/assets/images/e38421_52d9354b6dfb46ffb750ffeed76ba3bb~mv2.jpg": {
+      "focalPoint": [
+        62,
+        55
+      ]
+    },
+    "/assets/images/e38421_ad46825e404a40dda6ab4d315a90b4a7~mv2.jpg": {
+      "focalPoint": [
+        50,
+        50
+      ]
+    },
+    "/assets/images/e38421_32c2ef40a47b41d29a252c6e2623e88d~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_f6f6d86bb354400e990bf0c6dbe881f9~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_0f4bf27085724a0fb1e63837d099cf20~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_7df5cfa9de214d8792fb45c1738c8fd6~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_d7fcf4d1a7364552bc5eca20aeab41b4~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_acf033a9b5fa493191f5a61b5a497362~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_529c5fbf52f84085b65aff4ce6ec813e~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_486d03cb90ef472eb01807a344121cf1~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_34e63415ee124f6fbbe488cf9daf6bf7~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/5b88ab_dccc00d68e9546b5990f0e1f40914c9f~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_1819ece38d1c41f49d23e547c2cb80ba~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_11e135083d2c4f4e88627298a6b4b3d4~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_d31477a33c194c389a240f1db6b1c1d6~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_d265a467dc1342efaf5f61a0fc6c87a5~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_bebacd2f0ae0403d9217abff4e10f44c~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_d13276e423fb431cb5ef399c95e392af~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/5b88ab_ec7fc02aebb34d1aaf891b587d810f20~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_eefccfdf78c54b2fa3429b65e74e11d1~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_2d9cf2e5adde4b87895cbe897298b7c4~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/5b88ab_4353bbfda18b403b919795ee818e33ae~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/e38421_2d9c21832a1349da889b71e8889abf3f~mv2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    },
+    "/assets/images/596320_914de595af62450f9762d116eb6041eb~mv2_d_3832_3832_s_4_2.jpg": {
+      "kind": "document",
+      "fit": "contain"
+    }
+  }
+}

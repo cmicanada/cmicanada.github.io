@@ -34,7 +34,7 @@ Every new or edited visitor-facing item must be available in all three locales:
 - Read `README.md` and the relevant current templates and source records before editing. Change `content/site.json`, translation sources and templates, then rebuild. Root HTML, `zh-hans/`, `en/`, search indexes and sitemap are committed generated outputs; do not edit them independently.
 - Preserve existing routes, full source text, attribution, original report/poster files and historical capture metadata. Use supplied sources for facts; do not invent dates, speakers, registration status or provenance. The original capture contains 41 routes and 16 posts; additional authored items must not be described as part of that historical Wix capture.
 - Maintain readable layouts for older church/ministry audiences: 20px body copy, 18px navigation/controls, generous spacing and at least 44px language targets. Keep the approved refined logo in `assets/brand/` and the preserved original artwork. `scripts/prepare-brand.py` also writes unused SVG proposals; those are not replacements for the approved logo.
-- New content may require responsive image derivatives or additional Chinese font glyphs. Follow the relevant skill's media/font workflow.
+- Use `assets/media.css` for image presentation and `content/image-layout.json` for source-specific `focalPoint` percentages, `kind` and `fit` overrides. Crop photos around people/subjects; show documents, posters, collages and illustrations completely. Keep gallery originals, reading labels outside the image, natural colors and reduced-motion support. New content may require responsive image derivatives or additional Chinese font glyphs. Follow the relevant skill's media/font workflow.
 
 ## Validation and delivery
 
