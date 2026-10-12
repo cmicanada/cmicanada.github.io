@@ -1,0 +1,3059 @@
+{
+  "source": "https://www.cmicanada.org",
+  "capturedAt": "2026-10-12",
+  "routeCount": 41,
+  "footerText": "加拿大國際關懷協會（ Care Ministries International Canada，簡稱CMI, Canada）\n於2015年成立，是一個由華人基督徒發起，以參與跨文化宣教為導向的跨宗派華語差會。\n1909 -175 Bamburgh Circle, Toronto , Ontario M1V 3X8, Canada\n\nPhone:  416 844 2534\n\nE-Mail:\ncmicanada2012@gmail.com\nCopyright © 2026 加拿大國際關懷協會 – 華人跨文化宣教機構. All rights reserved.\n©2026 by CMI Canada. Proudly created with Wix.com",
+  "pages": [
+    {
+      "url": "https://www.cmicanada.org/programs",
+      "path": "/programs",
+      "title": "Programs",
+      "sourceText": "事工介绍\n短宣访宣\n前方宣教\n工場支持\n宣教動員\n慈惠關懷\n本地宣教\n禱告關懷",
+      "blocks": [
+        "<h1>事工介绍</h1>",
+        "<h2><a href=\"/duan-xuan\">短宣访宣</a></h2>",
+        "<h2><a href=\"/植堂事工\">前方宣教</a></h2>",
+        "<h2><a href=\"/學生事工\">工場支持</a></h2>",
+        "<h2><a href=\"/宣教動員\">宣教動員</a></h2>",
+        "<h2><a href=\"/慈惠事工\">慈惠關懷</a></h2>",
+        "<h2><a href=\"/本地宣教\">本地宣教</a></h2>",
+        "<h2><a href=\"/禱告關懷\">禱告關懷</a></h2>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/9bc60f_d32c3a9e1ccf47d59d12469b775e854a~mv2.jpg",
+          "alt": "ff9f9480-7228-42c6-870e-7aeebc7dce0d.jpg"
+        },
+        {
+          "src": "/assets/images/9bc60f_1ca32a60471b4d4f98dbe740109039e8~mv2.jpeg",
+          "alt": "聖山事工.jpeg"
+        },
+        {
+          "src": "/assets/images/9bc60f_614dd6ac686942bfb8a00c65cfd5f260~mv2.jpg",
+          "alt": "78584902-e02a-422f-ac49-208daed465ea.jpg"
+        },
+        {
+          "src": "/assets/images/9bc60f_15bcf0a7bd374c429b861faed11226e3~mv2.jpeg",
+          "alt": "兒童事工.jpeg"
+        },
+        {
+          "src": "/assets/images/9bc60f_ca786639299b4e03922421865acda02c~mv2.png",
+          "alt": "PHOTO-2023-01-11-05-11-43_edited.png"
+        },
+        {
+          "src": "/assets/images/11062b_9fe8cf7ac275438cafa34f90833b0230~mv2.jpg",
+          "alt": "Praying Hands"
+        }
+      ],
+      "links": [
+        {
+          "label": "短宣访宣",
+          "href": "/duan-xuan"
+        },
+        {
+          "label": "前方宣教",
+          "href": "/植堂事工"
+        },
+        {
+          "label": "工場支持",
+          "href": "/學生事工"
+        },
+        {
+          "label": "宣教動員",
+          "href": "/宣教動員"
+        },
+        {
+          "label": "慈惠關懷",
+          "href": "/慈惠事工"
+        },
+        {
+          "label": "本地宣教",
+          "href": "/本地宣教"
+        },
+        {
+          "label": "禱告關懷",
+          "href": "/禱告關懷"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h1>事工介绍</h1>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/9bc60f_d32c3a9e1ccf47d59d12469b775e854a~mv2.jpg",
+          "alt": "ff9f9480-7228-42c6-870e-7aeebc7dce0d.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/9bc60f_1ca32a60471b4d4f98dbe740109039e8~mv2.jpeg",
+          "alt": "聖山事工.jpeg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/9bc60f_614dd6ac686942bfb8a00c65cfd5f260~mv2.jpg",
+          "alt": "78584902-e02a-422f-ac49-208daed465ea.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/duan-xuan\">短宣访宣</a></h2>"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/植堂事工\">前方宣教</a></h2>"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/學生事工\">工場支持</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/9bc60f_15bcf0a7bd374c429b861faed11226e3~mv2.jpeg",
+          "alt": "兒童事工.jpeg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/9bc60f_ca786639299b4e03922421865acda02c~mv2.png",
+          "alt": "PHOTO-2023-01-11-05-11-43_edited.png"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/宣教動員\">宣教動員</a></h2>"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/慈惠事工\">慈惠關懷</a></h2>"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/本地宣教\">本地宣教</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/11062b_9fe8cf7ac275438cafa34f90833b0230~mv2.jpg",
+          "alt": "Praying Hands"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/禱告關懷\">禱告關懷</a></h2>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/慈惠事工",
+      "path": "/慈惠事工",
+      "title": "慈惠關懷",
+      "sourceText": "慈惠關懷\nCMI Canada 其中一個宗旨，就是以愛神愛人的大誡命作爲整全福音見證耶穌基督的一部分。CMI Canada 願意成為後方教會與宣教工場的橋樑，將愛帶到需要的人群當中去：\n\n•經濟支持貧困鄉村的教學和福音工作\n\n•經濟支持禾場當地傳道人，讓傳道人可以專心為主做工。\n\n•經濟支持禾場當地傳道人的孩子上學。",
+      "blocks": [
+        "<h2>慈惠關懷</h2>",
+        "<p>CMI Canada 其中一個宗旨，就是以愛神愛人的大誡命作爲整全福音見證耶穌基督的一部分。CMI Canada 願意成為後方教會與宣教工場的橋樑，將愛帶到需要的人群當中去：</p>\n\n\n<p>•經濟支持貧困鄉村的教學和福音工作</p>\n\n<p>•經濟支持禾場當地傳道人，讓傳道人可以專心為主做工。</p>\n\n<p>•經濟支持禾場當地傳道人的孩子上學。</p>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_dd3c2d53042d4b67bf136fa10455be6a~mv2.jpg",
+          "alt": "Picture10.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_ca7e1cf2b9c3486bbefa217ab9f15d2e~mv2.jpg",
+          "alt": "Picture7.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_deb0a84a44be466187cc649de466e738~mv2.jpg",
+          "alt": "Picture8.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_7921eedd8d68441893c5f58ce24b47e2~mv2.jpg",
+          "alt": "Picture9.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_edbc9ae08c6349fcb198702d7411bcaf~mv2.jpg",
+          "alt": "Picture6.jpg"
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>慈惠關懷</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>CMI Canada 其中一個宗旨，就是以愛神愛人的大誡命作爲整全福音見證耶穌基督的一部分。CMI Canada 願意成為後方教會與宣教工場的橋樑，將愛帶到需要的人群當中去：</p>\n\n\n<p>•經濟支持貧困鄉村的教學和福音工作</p>\n\n<p>•經濟支持禾場當地傳道人，讓傳道人可以專心為主做工。</p>\n\n<p>•經濟支持禾場當地傳道人的孩子上學。</p>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_dd3c2d53042d4b67bf136fa10455be6a~mv2.jpg",
+          "alt": "Picture10.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_ca7e1cf2b9c3486bbefa217ab9f15d2e~mv2.jpg",
+          "alt": "Picture7.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_deb0a84a44be466187cc649de466e738~mv2.jpg",
+          "alt": "Picture8.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_7921eedd8d68441893c5f58ce24b47e2~mv2.jpg",
+          "alt": "Picture9.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_edbc9ae08c6349fcb198702d7411bcaf~mv2.jpg",
+          "alt": "Picture6.jpg"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/home",
+      "path": "/home",
+      "title": "Home",
+      "sourceText": "近期活动\nBTCP 《圣经牧训》教师培训工作坊\n陈好传道加拿大多伦多分享会 - Oct 11,2026",
+      "blocks": [
+        "<h2>近期活动</h2>",
+        "<h2><a href=\"/近期活动\">BTCP 《圣经牧训》教师培训工作坊</a></h2>",
+        "<h2><a href=\"/近期活动\">陈好传道加拿大多伦多分享会 - Oct 11,2026</a></h2>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_59b063dc73d5469980e27608c4c66e82~mv2.jpg",
+          "alt": "main-page.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_2d9cf2e5adde4b87895cbe897298b7c4~mv2.jpg",
+          "alt": "1_edited.jpg"
+        },
+        {
+          "src": "/assets/images/5b88ab_4353bbfda18b403b919795ee818e33ae~mv2.jpg",
+          "alt": "陈好多伦多分享会.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "BTCP 《圣经牧训》教师培训工作坊",
+          "href": "/近期活动"
+        },
+        {
+          "label": "陈好传道加拿大多伦多分享会 - Oct 11,2026",
+          "href": "/近期活动"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_59b063dc73d5469980e27608c4c66e82~mv2.jpg",
+          "alt": "main-page.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2>近期活动</h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_2d9cf2e5adde4b87895cbe897298b7c4~mv2.jpg",
+          "alt": "1_edited.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/近期活动\">BTCP 《圣经牧训》教师培训工作坊</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_4353bbfda18b403b919795ee818e33ae~mv2.jpg",
+          "alt": "陈好多伦多分享会.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/近期活动\">陈好传道加拿大多伦多分享会 - Oct 11,2026</a></h2>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/學生事工",
+      "path": "/學生事工",
+      "title": "工場支持",
+      "sourceText": "工場支持\nCMI Canada 作爲後方基地，要與前方宣教工場緊密合作，開創和推動前方的宣教工作：\n經濟支持:\n現有的兩名宣教士生活和他們事工的需要。\n支持 比拉迦青年福音中心和宿舍事工。兩位本地傳道人的生活費需要CMI   Canada提供，保証他們可以專心服事學生。由於宿舍是幾乎免費提供給窮困的學生的，所以宿舍的營運支出也需要後方供應。\n聖山教會：當地同工的經濟需要。正在建設當中的敬拜和教育中心。\n經濟支持本地傳道人，讓傳道人可以專心為主做工。\n\n禱告和關懷的支持：\n我們會定常提供前方禱告需要，供大家禱告時紀念。我們也有每月一次的禱告會，  歡迎大家一起來禱告。\n我們會與工場的宣教士和本地同工有一定的聯繫，關注他們的需要。",
+      "blocks": [
+        "<h2>工場支持</h2>",
+        "<p>CMI Canada 作爲後方基地，要與前方宣教工場緊密合作，開創和推動前方的宣教工作：</p>\n\n<p>經濟支持:</p>\n<ul>\n<li>\n<p> 現有的兩名宣教士生活和他們事工的需要。</p>\n</li>\n<li>\n<p> 支持 比拉迦青年福音中心和宿舍事工。兩位本地傳道人的生活費需要CMI   Canada提供，保証他們可以專心服事學生。由於宿舍是幾乎免費提供給窮困的學生的，所以宿舍的營運支出也需要後方供應。</p>\n</li>\n<li>\n<p> 聖山教會：當地同工的經濟需要。正在建設當中的敬拜和教育中心。</p>\n</li>\n<li>\n<p>經濟支持本地傳道人，讓傳道人可以專心為主做工。</p>\n</li>\n</ul>\n\n<p>禱告和關懷的支持：</p>\n<ul>\n<li>\n<p>我們會定常提供前方禱告需要，供大家禱告時紀念。我們也有每月一次的禱告會，  歡迎大家一起來禱告。</p>\n</li>\n<li>\n<p>我們會與工場的宣教士和本地同工有一定的聯繫，關注他們的需要。</p>\n</li>\n</ul>"
+      ],
+      "images": [],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>工場支持</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>CMI Canada 作爲後方基地，要與前方宣教工場緊密合作，開創和推動前方的宣教工作：</p>\n\n<p>經濟支持:</p>\n<ul>\n<li>\n<p> 現有的兩名宣教士生活和他們事工的需要。</p>\n</li>\n<li>\n<p> 支持 比拉迦青年福音中心和宿舍事工。兩位本地傳道人的生活費需要CMI   Canada提供，保証他們可以專心服事學生。由於宿舍是幾乎免費提供給窮困的學生的，所以宿舍的營運支出也需要後方供應。</p>\n</li>\n<li>\n<p> 聖山教會：當地同工的經濟需要。正在建設當中的敬拜和教育中心。</p>\n</li>\n<li>\n<p>經濟支持本地傳道人，讓傳道人可以專心為主做工。</p>\n</li>\n</ul>\n\n<p>禱告和關懷的支持：</p>\n<ul>\n<li>\n<p>我們會定常提供前方禱告需要，供大家禱告時紀念。我們也有每月一次的禱告會，  歡迎大家一起來禱告。</p>\n</li>\n<li>\n<p>我們會與工場的宣教士和本地同工有一定的聯繫，關注他們的需要。</p>\n</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/copy-of-關於我們",
+      "path": "/copy-of-關於我們",
+      "title": "About",
+      "sourceText": "國際關懷協會\nCare Ministries International\n國際關懷協會（Care Ministries International, CMI），由神的僕人李秀全牧師創辦，最初於1997年向香港政府登記註冊，名為關懷社，直至2001年在美國正式成立，開始運作並以參與跨文化宣教為導向，是一個跨宗派的華語信心差會。\n\n宣教\n異象（Mission Vision）\n「福音進中華‧福音出中華」為協會異象，透過進中華的事奉，邁向出中華的目標，藉由全職和專業的服事，根據整本的聖經，動員整體的教會，把整全的福音，帶給整個的世界。\n\n核心價\n值（Core Value）\n關懷，表達了基督對我們的愛；關懷，也表達了我們對中華的愛。關懷一詞的英文是CARE；這四個字母傳達了CMI的事工重點，簡單的說：\nC：CHRIST CENTEREDNESS以基督爲中心。\nA：ATONEMENT 以救贖爲道路。\nR：RECONCILIATION以和好爲宗旨。\nE：EVANGELIZATION以宣教爲使命。\n\n宣教策略（Mission Strategies）\n根據工場的需要，差派長期宣教士以及專業、帶職、短期、特約的宣教士從事慈惠、醫療、教育、佈道、培訓等事工，見證並傳揚福音以帶出基督門徒的群體。\n\n\n宣教工場（Mission\nFields）\n差會成立迄今，已\n有來自台灣、美國、加拿大、紐西蘭與創啟地區的宣教士們，分別在泰國、柬埔寨\n及創啟等宣教工場參與跨文化的服事，另外並支持緬甸少數民族的福音工作。近年亦積極開拓日本及其他國家。\n\n宣教基地（Sending Bases）\n目前在美國、台灣、紐西蘭、澳洲、加拿大、日本及創啟地區已分別成立CMI地區辦公室, 成為CMI招募、訓練及差派宣教士的基地。\n\n宣教事\n工（Main Tasks）\n宣教動員：在各地動員、裝備並徵召門徒成為宣教士，前往工場，透過不同途徑，開荒、布道、建立教會並訓練耶穌基督門徒，完成大使命。\n宣教祈禱：以「宣教毋忘祈禱、祈禱毋忘宣教」（mission and prayer）及「祈禱是宣教的根，宣教是祈禱的果」的精神，呼籲宣教祈禱伙伴，在各地相繼成立宣教祈禱團契月會，並在美西、美東南、台灣等地舉辦年度的宣教祈禱特會。\n宣教關顧：成立宣教關顧團契，推動全程（由徵召到退休）的關顧觀念及作法。\n宣教教育：透過與神學院的合作，在宣教工場進行為期六至八週的暑期跨文化宣教實習與訓練課程（Mission Field Training，簡稱MFT），訓練課程強調的是在宣教工場上之跨文化實習與訓練。迄今已和美國正道福音神學院、台灣中華福音神學院、信義神學院、門徒訓練神學院、中台神學院、聖光神學院、真道神學研究院、宣道神學院、浸信會神學院及創啟地區某神學院合作，迄今，百人完成MFT訓練，且人數逐年增加，其中多位已投身在宣教工場服事，另有幾位完成兩年短宣任期後回國。\n醫療宣教（medical outreach）：透過醫謢人員的專業，每年進入柬埔寨，藉由身體得醫治進到心靈得醫治的服事。\n拉法學院：在柬埔寨籌建拉法護理學院，計劃培養當地基督徒護理人員，將福音深植柬國人民。\n漢語教學：差派宣教士進入宣教工場，以漢語教學教師身分在大學或中學當中，一邊教學，一邊撒種引人歸主，進而訓練耶穌基督門徒。\n\n宣教經費（Mission Funding）\nCMI是一個宣教的信心差會，所有\n的經費來源是神的恩典，透過弟兄姐妹與眾教會的支持和奉獻而供應。",
+      "blocks": [
+        "<h2>國際關懷協會<br>\nCare Ministries International</h2>",
+        "<p>國際關懷協會（Care Ministries International, CMI），由神的僕人李秀全牧師創辦，最初於1997年向香港政府登記註冊，名為關懷社，直至2001年在美國正式成立，開始運作並以參與跨文化宣教為導向，是一個跨宗派的華語信心差會。</p>\n\n<ul>\n<li>\n<p>宣教異象（Mission Vision）</p>\n</li>\n</ul>\n<p>「福音進中華‧福音出中華」為協會異象，透過進中華的事奉，邁向出中華的目標，藉由全職和專業的服事，根據整本的聖經，動員整體的教會，把整全的福音，帶給整個的世界。</p>\n\n<ul>\n<li>\n<p>核心價值（Core Value）</p>\n</li>\n</ul>\n<p>關懷，表達了基督對我們的愛；關懷，也表達了我們對中華的愛。關懷一詞的英文是CARE；這四個字母傳達了CMI的事工重點，簡單的說：</p>\n<p>     C：CHRIST CENTEREDNESS以基督爲中心。</p>\n<p>     A：ATONEMENT 以救贖爲道路。</p>\n<p>     R：RECONCILIATION以和好爲宗旨。</p>\n<p>     E：EVANGELIZATION以宣教爲使命。</p>\n\n<ul>\n<li>\n<p>宣教策略（Mission Strategies）</p>\n</li>\n</ul>\n<p>根據工場的需要，差派長期宣教士以及專業、帶職、短期、特約的宣教士從事慈惠、醫療、教育、佈道、培訓等事工，見證並傳揚福音以帶出基督門徒的群體。</p>\n\n<ul>\n<li>\n<p>宣教工場（Mission Fields）</p>\n</li>\n</ul>\n<p>差會成立迄今，已有來自台灣、美國、加拿大、紐西蘭與創啟地區的宣教士們，分別在泰國、柬埔寨及創啟等宣教工場參與跨文化的服事，另外並支持緬甸少數民族的福音工作。近年亦積極開拓日本及其他國家。</p>\n\n<ul>\n<li>\n<p>宣教基地（Sending Bases）</p>\n</li>\n</ul>\n<p>目前在美國、台灣、紐西蘭、澳洲、加拿大、日本及創啟地區已分別成立CMI地區辦公室, 成為CMI招募、訓練及差派宣教士的基地。</p>\n\n<ul>\n<li>\n<p>宣教事工（Main Tasks）</p>\n</li>\n</ul>\n<ol>\n<li>\n<p>宣教動員：在各地動員、裝備並徵召門徒成為宣教士，前往工場，透過不同途徑，開荒、布道、建立教會並訓練耶穌基督門徒，完成大使命。</p>\n</li>\n<li>\n<p>宣教祈禱：以「宣教毋忘祈禱、祈禱毋忘宣教」（mission and prayer）及「祈禱是宣教的根，宣教是祈禱的果」的精神，呼籲宣教祈禱伙伴，在各地相繼成立宣教祈禱團契月會，並在美西、美東南、台灣等地舉辦年度的宣教祈禱特會。</p>\n</li>\n<li>\n<p>宣教關顧：成立宣教關顧團契，推動全程（由徵召到退休）的關顧觀念及作法。</p>\n</li>\n<li>\n<p>宣教教育：透過與神學院的合作，在宣教工場進行為期六至八週的暑期跨文化宣教實習與訓練課程（Mission Field Training，簡稱MFT），訓練課程強調的是在宣教工場上之跨文化實習與訓練。迄今已和美國正道福音神學院、台灣中華福音神學院、信義神學院、門徒訓練神學院、中台神學院、聖光神學院、真道神學研究院、宣道神學院、浸信會神學院及創啟地區某神學院合作，迄今，百人完成MFT訓練，且人數逐年增加，其中多位已投身在宣教工場服事，另有幾位完成兩年短宣任期後回國。</p>\n</li>\n<li>\n<p>醫療宣教（medical outreach）：透過醫謢人員的專業，每年進入柬埔寨，藉由身體得醫治進到心靈得醫治的服事。</p>\n</li>\n<li>\n<p>拉法學院：在柬埔寨籌建拉法護理學院，計劃培養當地基督徒護理人員，將福音深植柬國人民。</p>\n</li>\n<li>\n<p>漢語教學：差派宣教士進入宣教工場，以漢語教學教師身分在大學或中學當中，一邊教學，一邊撒種引人歸主，進而訓練耶穌基督門徒。</p>\n</li>\n</ol>\n\n<ul>\n<li>\n<p>宣教經費（Mission Funding）</p>\n</li>\n</ul>\n<p>CMI是一個宣教的信心差會，所有的經費來源是神的恩典，透過弟兄姐妹與眾教會的支持和奉獻而供應。</p>"
+      ],
+      "images": [],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>國際關懷協會<br>\nCare Ministries International</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>國際關懷協會（Care Ministries International, CMI），由神的僕人李秀全牧師創辦，最初於1997年向香港政府登記註冊，名為關懷社，直至2001年在美國正式成立，開始運作並以參與跨文化宣教為導向，是一個跨宗派的華語信心差會。</p>\n\n<ul>\n<li>\n<p>宣教異象（Mission Vision）</p>\n</li>\n</ul>\n<p>「福音進中華‧福音出中華」為協會異象，透過進中華的事奉，邁向出中華的目標，藉由全職和專業的服事，根據整本的聖經，動員整體的教會，把整全的福音，帶給整個的世界。</p>\n\n<ul>\n<li>\n<p>核心價值（Core Value）</p>\n</li>\n</ul>\n<p>關懷，表達了基督對我們的愛；關懷，也表達了我們對中華的愛。關懷一詞的英文是CARE；這四個字母傳達了CMI的事工重點，簡單的說：</p>\n<p>     C：CHRIST CENTEREDNESS以基督爲中心。</p>\n<p>     A：ATONEMENT 以救贖爲道路。</p>\n<p>     R：RECONCILIATION以和好爲宗旨。</p>\n<p>     E：EVANGELIZATION以宣教爲使命。</p>\n\n<ul>\n<li>\n<p>宣教策略（Mission Strategies）</p>\n</li>\n</ul>\n<p>根據工場的需要，差派長期宣教士以及專業、帶職、短期、特約的宣教士從事慈惠、醫療、教育、佈道、培訓等事工，見證並傳揚福音以帶出基督門徒的群體。</p>\n\n<ul>\n<li>\n<p>宣教工場（Mission Fields）</p>\n</li>\n</ul>\n<p>差會成立迄今，已有來自台灣、美國、加拿大、紐西蘭與創啟地區的宣教士們，分別在泰國、柬埔寨及創啟等宣教工場參與跨文化的服事，另外並支持緬甸少數民族的福音工作。近年亦積極開拓日本及其他國家。</p>\n\n<ul>\n<li>\n<p>宣教基地（Sending Bases）</p>\n</li>\n</ul>\n<p>目前在美國、台灣、紐西蘭、澳洲、加拿大、日本及創啟地區已分別成立CMI地區辦公室, 成為CMI招募、訓練及差派宣教士的基地。</p>\n\n<ul>\n<li>\n<p>宣教事工（Main Tasks）</p>\n</li>\n</ul>\n<ol>\n<li>\n<p>宣教動員：在各地動員、裝備並徵召門徒成為宣教士，前往工場，透過不同途徑，開荒、布道、建立教會並訓練耶穌基督門徒，完成大使命。</p>\n</li>\n<li>\n<p>宣教祈禱：以「宣教毋忘祈禱、祈禱毋忘宣教」（mission and prayer）及「祈禱是宣教的根，宣教是祈禱的果」的精神，呼籲宣教祈禱伙伴，在各地相繼成立宣教祈禱團契月會，並在美西、美東南、台灣等地舉辦年度的宣教祈禱特會。</p>\n</li>\n<li>\n<p>宣教關顧：成立宣教關顧團契，推動全程（由徵召到退休）的關顧觀念及作法。</p>\n</li>\n<li>\n<p>宣教教育：透過與神學院的合作，在宣教工場進行為期六至八週的暑期跨文化宣教實習與訓練課程（Mission Field Training，簡稱MFT），訓練課程強調的是在宣教工場上之跨文化實習與訓練。迄今已和美國正道福音神學院、台灣中華福音神學院、信義神學院、門徒訓練神學院、中台神學院、聖光神學院、真道神學研究院、宣道神學院、浸信會神學院及創啟地區某神學院合作，迄今，百人完成MFT訓練，且人數逐年增加，其中多位已投身在宣教工場服事，另有幾位完成兩年短宣任期後回國。</p>\n</li>\n<li>\n<p>醫療宣教（medical outreach）：透過醫謢人員的專業，每年進入柬埔寨，藉由身體得醫治進到心靈得醫治的服事。</p>\n</li>\n<li>\n<p>拉法學院：在柬埔寨籌建拉法護理學院，計劃培養當地基督徒護理人員，將福音深植柬國人民。</p>\n</li>\n<li>\n<p>漢語教學：差派宣教士進入宣教工場，以漢語教學教師身分在大學或中學當中，一邊教學，一邊撒種引人歸主，進而訓練耶穌基督門徒。</p>\n</li>\n</ol>\n\n<ul>\n<li>\n<p>宣教經費（Mission Funding）</p>\n</li>\n</ul>\n<p>CMI是一個宣教的信心差會，所有的經費來源是神的恩典，透過弟兄姐妹與眾教會的支持和奉獻而供應。</p>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/about-1",
+      "path": "/about-1",
+      "title": "信仰告白",
+      "sourceText": "信仰告白\nStatement of Faith\n我們相信：\n1、聖經\n新舊約聖經，都是上帝所默示的，記載上帝救贖世人全備的啟示，是基督徒信仰及生活的最高權威。\n2、上帝\n自有永有的上帝。永存的聖父、聖子、聖靈三位一體。創造、維護並統管宇宙萬物。\n3、基督\n耶穌基督是上帝的獨生子，兼有神人二性，由父上帝所差遣，從聖靈感孕，藉童女馬利亞生，被釘在十字架上，經歷肉身復活、升天，坐在至高者的右邊，是上帝所膏的先知、祭司和君王。在末日，基督將親自再來，審判活人與死人。\n4、聖靈\n聖靈與聖父、聖子同尊同榮。聖靈來要高舉基督、引導我們明白一切真理，並要叫世人為罪、為義、為審判，自己責備自己。使人成聖，並賜能力成為耶穌基督的見證人。\n5、人\n人是按上帝的形像造的，因悖逆而墮落成為罪人，需要上帝的救恩，唯有經由聖靈的重生，並因信耶穌基督得以稱義，與上帝和好。信徒皆為祭司，為要成全聖徒，各盡其職，建立基督的身體。\n6、救贖\n耶穌基督的流血、代死及復活是我們稱義與救贖的唯一根基，唯有相信並接受耶穌基督的人，方能得著聖靈的重生，成為上帝的兒女。\n7、教會\n教會為基督的身體，以基督為元首，聯合所有藉聖靈重生之信徒，經由崇拜、門訓、團契、服事、見證，完成宣教的大使命。\n8、宣教\n我們的上帝，乃是宣教的上帝。聖靈要動員全教會，根據整本聖經，將整全福音傳揚至地極，直到主臨。\n9、我們相信聖經明確的教導：上帝所設立的婚姻是一男一女的結合。\n",
+      "blocks": [
+        "<h1>信仰告白</h1>",
+        "<p>Statement of Faith</p>",
+        "<p>我們相信：</p>",
+        "<p>1、聖經</p>\n<p>新舊約聖經，都是上帝所默示的，記載上帝救贖世人全備的啟示，是基督徒信仰及生活的最高權威。</p>\n<p>2、上帝</p>\n<p>自有永有的上帝。永存的聖父、聖子、聖靈三位一體。創造、維護並統管宇宙萬物。</p>\n<p>3、基督</p>\n<p>耶穌基督是上帝的獨生子，兼有神人二性，由父上帝所差遣，從聖靈感孕，藉童女馬利亞生，被釘在十字架上，經歷肉身復活、升天，坐在至高者的右邊，是上帝所膏的先知、祭司和君王。在末日，基督將親自再來，審判活人與死人。</p>\n<p>4、聖靈</p>\n<p>聖靈與聖父、聖子同尊同榮。聖靈來要高舉基督、引導我們明白一切真理，並要叫世人為罪、為義、為審判，自己責備自己。使人成聖，並賜能力成為耶穌基督的見證人。</p>\n<p>5、人</p>\n<p>人是按上帝的形像造的，因悖逆而墮落成為罪人，需要上帝的救恩，唯有經由聖靈的重生，並因信耶穌基督得以稱義，與上帝和好。信徒皆為祭司，為要成全聖徒，各盡其職，建立基督的身體。</p>\n<p>6、救贖</p>\n<p>耶穌基督的流血、代死及復活是我們稱義與救贖的唯一根基，唯有相信並接受耶穌基督的人，方能得著聖靈的重生，成為上帝的兒女。</p>\n<p>7、教會</p>\n<p>教會為基督的身體，以基督為元首，聯合所有藉聖靈重生之信徒，經由崇拜、門訓、團契、服事、見證，完成宣教的大使命。</p>\n<p>8、宣教</p>\n<p>我們的上帝，乃是宣教的上帝。聖靈要動員全教會，根據整本聖經，將整全福音傳揚至地極，直到主臨。</p>\n<p>9、我們相信聖經明確的教導：上帝所設立的婚姻是一男一女的結合。</p>\n"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/11062b_9fe8cf7ac275438cafa34f90833b0230~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h1>信仰告白</h1>"
+        },
+        {
+          "type": "html",
+          "html": "<p>Statement of Faith</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>我們相信：</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>1、聖經</p>\n<p>新舊約聖經，都是上帝所默示的，記載上帝救贖世人全備的啟示，是基督徒信仰及生活的最高權威。</p>\n<p>2、上帝</p>\n<p>自有永有的上帝。永存的聖父、聖子、聖靈三位一體。創造、維護並統管宇宙萬物。</p>\n<p>3、基督</p>\n<p>耶穌基督是上帝的獨生子，兼有神人二性，由父上帝所差遣，從聖靈感孕，藉童女馬利亞生，被釘在十字架上，經歷肉身復活、升天，坐在至高者的右邊，是上帝所膏的先知、祭司和君王。在末日，基督將親自再來，審判活人與死人。</p>\n<p>4、聖靈</p>\n<p>聖靈與聖父、聖子同尊同榮。聖靈來要高舉基督、引導我們明白一切真理，並要叫世人為罪、為義、為審判，自己責備自己。使人成聖，並賜能力成為耶穌基督的見證人。</p>\n<p>5、人</p>\n<p>人是按上帝的形像造的，因悖逆而墮落成為罪人，需要上帝的救恩，唯有經由聖靈的重生，並因信耶穌基督得以稱義，與上帝和好。信徒皆為祭司，為要成全聖徒，各盡其職，建立基督的身體。</p>\n<p>6、救贖</p>\n<p>耶穌基督的流血、代死及復活是我們稱義與救贖的唯一根基，唯有相信並接受耶穌基督的人，方能得著聖靈的重生，成為上帝的兒女。</p>\n<p>7、教會</p>\n<p>教會為基督的身體，以基督為元首，聯合所有藉聖靈重生之信徒，經由崇拜、門訓、團契、服事、見證，完成宣教的大使命。</p>\n<p>8、宣教</p>\n<p>我們的上帝，乃是宣教的上帝。聖靈要動員全教會，根據整本聖經，將整全福音傳揚至地極，直到主臨。</p>\n<p>9、我們相信聖經明確的教導：上帝所設立的婚姻是一男一女的結合。</p>\n"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/11062b_9fe8cf7ac275438cafa34f90833b0230~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/about",
+      "path": "/about",
+      "title": "About",
+      "sourceText": "關於我們\nAbout Us\n國際關懷協會簡介\n加拿大分會簡介\n信仰告白\nCMI各地分會",
+      "blocks": [
+        "<h2>關於我們<br>\nAbout Us</h2>"
+      ],
+      "images": [],
+      "links": [
+        {
+          "label": "國際關懷協會簡介",
+          "href": "/copy-of-關於我們"
+        },
+        {
+          "label": "加拿大分會簡介",
+          "href": "/about-1-1"
+        },
+        {
+          "label": "信仰告白",
+          "href": "/about-1"
+        },
+        {
+          "label": "CMI各地分會",
+          "href": "/cmi各地分会"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>關於我們<br>\nAbout Us</h2>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/duan-xuan",
+      "path": "/duan-xuan",
+      "title": "短宣訪宣",
+      "sourceText": "短宣訪宣\n•CMI Canada 每年會與教會合作，安排幾次的短宣，主要目的地是柬埔寨工場。\n•短宣內容包括：兒童佈道會，大學生團契，大學生退修會，校園傳福音，鄉村佈道會，家庭探訪，扶貧佈道會，事奉同工培訓，事奉同工退修會。\n•配合每次的短宣，CMI Canada可以提供：工場知識普及，短宣培訓，出發前靈修，出發後總結，等等協助。另外CMI Canada也可以該短宣幫助工場安排聯絡協調，短宣資金奉獻收集和發放。\n2014\n2015\n2016\n2017\n2018\n2019",
+      "blocks": [
+        "<h2>短宣訪宣</h2>",
+        "<p>•CMI Canada 每年會與教會合作，安排幾次的短宣，主要目的地是柬埔寨工場。</p>\n<p>•短宣內容包括：兒童佈道會，大學生團契，大學生退修會，校園傳福音，鄉村佈道會，家庭探訪，扶貧佈道會，事奉同工培訓，事奉同工退修會。</p>\n<p>•配合每次的短宣，CMI Canada可以提供：工場知識普及，短宣培訓，出發前靈修，出發後總結，等等協助。另外CMI Canada也可以該短宣幫助工場安排聯絡協調，短宣資金奉獻收集和發放。</p>",
+        "<h4>2014</h4>",
+        "<h4>2015</h4>",
+        "<h4>2016</h4>",
+        "<h4>2017</h4>",
+        "<h4>2018</h4>",
+        "<h4>2019</h4>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_ba3a78e0c04b4f7caccf581ce8b7ad54~mv2.jpg",
+          "alt": "2014.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_5321b963eec44332a3ec0e5ced2aad02~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_acf5c5a9ff8443a5a67c133d535fd05a~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_a0edc897e8a8480d914dce7b711397fd~mv2.jpg",
+          "alt": "2017.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_29a03571f8aa49efacd1e47bbb06de0d~mv2.jpg",
+          "alt": "2018.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_3b73a108179548999c6e236031414d34~mv2.jpg",
+          "alt": "2019.jpg"
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>短宣訪宣</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>•CMI Canada 每年會與教會合作，安排幾次的短宣，主要目的地是柬埔寨工場。</p>\n<p>•短宣內容包括：兒童佈道會，大學生團契，大學生退修會，校園傳福音，鄉村佈道會，家庭探訪，扶貧佈道會，事奉同工培訓，事奉同工退修會。</p>\n<p>•配合每次的短宣，CMI Canada可以提供：工場知識普及，短宣培訓，出發前靈修，出發後總結，等等協助。另外CMI Canada也可以該短宣幫助工場安排聯絡協調，短宣資金奉獻收集和發放。</p>"
+        },
+        {
+          "type": "html",
+          "html": "<h4>2014</h4>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_ba3a78e0c04b4f7caccf581ce8b7ad54~mv2.jpg",
+          "alt": "2014.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h4>2015</h4>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_5321b963eec44332a3ec0e5ced2aad02~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "html",
+          "html": "<h4>2016</h4>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_acf5c5a9ff8443a5a67c133d535fd05a~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "html",
+          "html": "<h4>2017</h4>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_a0edc897e8a8480d914dce7b711397fd~mv2.jpg",
+          "alt": "2017.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h4>2018</h4>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_29a03571f8aa49efacd1e47bbb06de0d~mv2.jpg",
+          "alt": "2018.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h4>2019</h4>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_3b73a108179548999c6e236031414d34~mv2.jpg",
+          "alt": "2019.jpg"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/宣教動員",
+      "path": "/宣教動員",
+      "title": "宣教動員",
+      "sourceText": "宣教動員\nCMI 的宣教異象是“福音進中華，福音出中華”，推動華人教會的跨文化宣教。 CMI Canada 將在眾教會當中：\n•分享宣教異象；\n•分享宣教工場的需要；\n•推動宣教教育。",
+      "blocks": [
+        "<h2>宣教動員</h2>",
+        "<p>CMI 的宣教異象是“福音進中華，福音出中華”，推動華人教會的跨文化宣教。 CMI Canada 將在眾教會當中：</p>\n<p>•分享宣教異象；</p>\n<p>•分享宣教工場的需要；</p>\n<p>•推動宣教教育。</p>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_d44d3a0e33364643bb94dfedb065995b~mv2.png",
+          "alt": "image.png"
+        },
+        {
+          "src": "/assets/images/e38421_3d39a2a8d8bd40da8f89523c6f048dea~mv2.png",
+          "alt": "image.png"
+        },
+        {
+          "src": "/assets/images/e38421_c75fe3f0bd4e4e0fb23824f2c1bd8ea3~mv2.png",
+          "alt": "image.png"
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>宣教動員</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>CMI 的宣教異象是“福音進中華，福音出中華”，推動華人教會的跨文化宣教。 CMI Canada 將在眾教會當中：</p>\n<p>•分享宣教異象；</p>\n<p>•分享宣教工場的需要；</p>\n<p>•推動宣教教育。</p>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d44d3a0e33364643bb94dfedb065995b~mv2.png",
+          "alt": "image.png"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_3d39a2a8d8bd40da8f89523c6f048dea~mv2.png",
+          "alt": "image.png"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_c75fe3f0bd4e4e0fb23824f2c1bd8ea3~mv2.png",
+          "alt": "image.png"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/近期活动",
+      "path": "/近期活动",
+      "title": "近期活动",
+      "sourceText": "",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_2d9cf2e5adde4b87895cbe897298b7c4~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/5b88ab_4353bbfda18b403b919795ee818e33ae~mv2.jpg",
+          "alt": "陈好多伦多分享会.jpg"
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_2d9cf2e5adde4b87895cbe897298b7c4~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_4353bbfda18b403b919795ee818e33ae~mv2.jpg",
+          "alt": "陈好多伦多分享会.jpg"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/about-1-1",
+      "path": "/about-1-1",
+      "title": "加拿大分會簡介",
+      "sourceText": "加拿大分會簡介\n歷史簡介\n•加拿大國際關懷協會（CMI Canada）成立於2012年11月，於2015年1月份正式註冊為慈善機構。第一任總幹事為李愛珍姐妹，曾炳海牧師為董事會主席。CMI Canada 於2014年11月差遣第一位宣教士盛行楚弟兄到柬埔寨工場。\n•2022年李愛珍姐妹辭去總幹事一職，奔赴柬埔寨工場，全力配合自己的夫君盛行楚宣教士的工場主任的工作。總幹事一職由曾炳海牧師接替，由龔明鵬牧師任董事會主席。\n同工和董事會\n•總幹事：曾炳海牧師\n•辦公室主任：黃鄧淑嫻\n•董事會：\n龔明鵬牧師：董事會主席\n陳偉勇：董事會副主席\n黃銘浦弟兄：財務\n黃鄧淑嫻：秘書\n麥振榮牧師\n王振義牧師\n林國輝牧師\n周元祥牧師\n吳強弟兄",
+      "blocks": [
+        "<h1>加拿大分會簡介</h1>",
+        "<h2>歷史簡介</h2>",
+        "<p>•加拿大國際關懷協會（CMI Canada）成立於2012年11月，於2015年1月份正式註冊為慈善機構。第一任總幹事為李愛珍姐妹，曾炳海牧師為董事會主席。CMI Canada 於2014年11月差遣第一位宣教士盛行楚弟兄到柬埔寨工場。</p>\n<p>•2022年李愛珍姐妹辭去總幹事一職，奔赴柬埔寨工場，全力配合自己的夫君盛行楚宣教士的工場主任的工作。總幹事一職由曾炳海牧師接替，由龔明鵬牧師任董事會主席。</p>",
+        "<h2>同工和董事會</h2>",
+        "<p>•總幹事：曾炳海牧師</p>\n<p>•辦公室主任：黃鄧淑嫻</p>\n<p>•董事會：</p>\n<p>      龔明鵬牧師：董事會主席</p>\n<p>      陳偉勇：董事會副主席</p>\n<p>      黃銘浦弟兄：財務</p>\n<p>      黃鄧淑嫻：秘書</p>\n<p>      麥振榮牧師</p>\n<p>      王振義牧師</p>\n<p>      林國輝牧師</p>\n<p>      周元祥牧師</p>\n<p>      吳強弟兄</p>"
+      ],
+      "images": [],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h1>加拿大分會簡介</h1>"
+        },
+        {
+          "type": "html",
+          "html": "<h2>歷史簡介</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>•加拿大國際關懷協會（CMI Canada）成立於2012年11月，於2015年1月份正式註冊為慈善機構。第一任總幹事為李愛珍姐妹，曾炳海牧師為董事會主席。CMI Canada 於2014年11月差遣第一位宣教士盛行楚弟兄到柬埔寨工場。</p>\n<p>•2022年李愛珍姐妹辭去總幹事一職，奔赴柬埔寨工場，全力配合自己的夫君盛行楚宣教士的工場主任的工作。總幹事一職由曾炳海牧師接替，由龔明鵬牧師任董事會主席。</p>"
+        },
+        {
+          "type": "html",
+          "html": "<h2>同工和董事會</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>•總幹事：曾炳海牧師</p>\n<p>•辦公室主任：黃鄧淑嫻</p>\n<p>•董事會：</p>\n<p>      龔明鵬牧師：董事會主席</p>\n<p>      陳偉勇：董事會副主席</p>\n<p>      黃銘浦弟兄：財務</p>\n<p>      黃鄧淑嫻：秘書</p>\n<p>      麥振榮牧師</p>\n<p>      王振義牧師</p>\n<p>      林國輝牧師</p>\n<p>      周元祥牧師</p>\n<p>      吳強弟兄</p>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/禱告關懷",
+      "path": "/禱告關懷",
+      "title": "禱告關懷",
+      "sourceText": "禱告關懷\nCMI 認定禱告對於宣教的重要性，“禱告是宣教的根，宣教是禱告的果”！CMI Canada 每月第三個週一召集宣教同工，一起為所關心的宣教工場和宣教工作禱告。CMI Canada 也願意積極參與跨教會，跨機構的聯合禱告。",
+      "blocks": [
+        "禱告關懷",
+        "<p>CMI 認定禱告對於宣教的重要性，“禱告是宣教的根，宣教是禱告的果”！CMI Canada 每月第三個週一召集宣教同工，一起為所關心的宣教工場和宣教工作禱告。CMI Canada 也願意積極參與跨教會，跨機構的聯合禱告。</p>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_00bee083564540b6bd6fbf01b3874a1b~mv2.png",
+          "alt": "image.png"
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_00bee083564540b6bd6fbf01b3874a1b~mv2.png",
+          "alt": "image.png"
+        },
+        {
+          "type": "html",
+          "html": "禱告關懷"
+        },
+        {
+          "type": "html",
+          "html": "<p>CMI 認定禱告對於宣教的重要性，“禱告是宣教的根，宣教是禱告的果”！CMI Canada 每月第三個週一召集宣教同工，一起為所關心的宣教工場和宣教工作禱告。CMI Canada 也願意積極參與跨教會，跨機構的聯合禱告。</p>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/本地宣教",
+      "path": "/本地宣教",
+      "title": "本地宣教",
+      "sourceText": "本地宣教\n•CMI Canada 致力於跨文化宣教，在“地極到了眼前，萬民就在家門口”的加拿大，我們一定不能錯過而要抓住時機服事來到加拿大中的少數族裔。CMI Canada 計劃促進華人教會與加拿大多种少数民族教会合作，发展散居民族的福音事工，并推动差遣回乡宣教士的工作。\n\n•聯合進行青少年事工。\n\n•與少數族裔教會一起幫助他們當中需要幫助的人群，傳遞基督的愛。",
+      "blocks": [
+        "<h2>本地宣教</h2>",
+        "<p>•CMI Canada 致力於跨文化宣教，在“地極到了眼前，萬民就在家門口”的加拿大，我們一定不能錯過而要抓住時機服事來到加拿大中的少數族裔。CMI Canada 計劃促進華人教會與加拿大多种少数民族教会合作，发展散居民族的福音事工，并推动差遣回乡宣教士的工作。</p>\n\n<p>•聯合進行青少年事工。</p>\n\n<p>•與少數族裔教會一起幫助他們當中需要幫助的人群，傳遞基督的愛。</p>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_7d5c4bda598e457aa8116a553d6b16e3~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_058d357d41494012890217898d113461~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_f5a20ae84ac5468bb17de1c85c5b3e00~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_e7ff374eede8472da3477fe6245476d0~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>本地宣教</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>•CMI Canada 致力於跨文化宣教，在“地極到了眼前，萬民就在家門口”的加拿大，我們一定不能錯過而要抓住時機服事來到加拿大中的少數族裔。CMI Canada 計劃促進華人教會與加拿大多种少数民族教会合作，发展散居民族的福音事工，并推动差遣回乡宣教士的工作。</p>\n\n<p>•聯合進行青少年事工。</p>\n\n<p>•與少數族裔教會一起幫助他們當中需要幫助的人群，傳遞基督的愛。</p>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_7d5c4bda598e457aa8116a553d6b16e3~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_058d357d41494012890217898d113461~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_f5a20ae84ac5468bb17de1c85c5b3e00~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_e7ff374eede8472da3477fe6245476d0~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/contact",
+      "path": "/contact",
+      "title": "Contact",
+      "sourceText": "CONTACT CMI CANADA\n1909-175 Bamburgh Circle, Toronto M1W 3X8\ncmicanada2012@gmail.com\n1-416-844-2534\nName\nEmail\nPhone\nAddress\nSubject\nMessage\nSubmit\nThanks for submitting!",
+      "blocks": [
+        "<p>1909-175 Bamburgh Circle, Toronto M1W 3X8</p>",
+        "<p><a href=\"mailto:cmicanada2012@gmail.com\">cmicanada2012@gmail.com</a></p>",
+        "<p><a href=\"tel:+14168442534\">1-416-844-2534</a></p>"
+      ],
+      "images": [],
+      "links": [
+        {
+          "label": "cmicanada2012@gmail.com",
+          "href": "mailto:cmicanada2012@gmail.com"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h1>CONTACT CMI CANADA</h1>"
+        },
+        {
+          "type": "html",
+          "html": "<p>1909-175 Bamburgh Circle, Toronto M1W 3X8</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p><a href=\"mailto:cmicanada2012@gmail.com\">cmicanada2012@gmail.com</a></p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>1-416-844-2534</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>Thanks for submitting!</p>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org",
+      "path": "/",
+      "title": "最新動態",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n代禱月曆 2026年10月\n代禱月曆\nJoan Lin\nOct 2\n0 min read\n會長事工報告 2026年9月\n會長事工報告\nJoan Lin\nOct 2\n0 min read\n會長事工報告 2026年4月\n會長事工報告\nJoan Lin\nApr 28\n0 min read\n代禱月曆 2026年5月\n代禱月曆\nJoan Lin\nApr 28\n0 min read",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": "代禱月曆 2026年10月"
+        },
+        {
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": "會長事工報告 2026年9月"
+        },
+        {
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": "會長事工報告 2026年4月"
+        },
+        {
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": "代禱月曆 2026年5月"
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "代禱月曆 2026年10月",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年9月",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年4月",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "代禱月曆 2026年5月",
+          "href": "/post/代禱月曆-2026年5月"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": "代禱月曆 2026年10月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": "會長事工報告 2026年9月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": "會長事工報告 2026年4月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": "代禱月曆 2026年5月"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/donate",
+      "path": "/donate",
+      "title": "捐赠奉献",
+      "sourceText": "支持我們的事工\n您有以下三種方式支持我們的事工\n1 電子轉賬 E-TRANSFER (首選)\n奉獻郵箱：\ncmicanada.donation@gmail.com\n轉賬之後，請同時寄一份電子郵件到上述CMI郵箱，提供電子轉賬的security answer。\n以及您的個人資料(名字、地址、電話)和說明奉獻使用的用途。\n2 CANADA HELP\n在\nCanad\nahelp\ns.org網頁裡,\n尋找 charity\nCMI canada。\nCana\nda Hel\nps 透\n過email:\ncmicanada.donation@gmail.com\n告之奉獻者名字和奉獻金。\nCanada Helps 會出tax receipts 。\n3 個人支票\n支票抬頭：CM\nI Canada\n郵寄地址：\n1909-175 Bamburgh Circle, Toronto M1W 3X8",
+      "blocks": [
+        "<h1>支持我們的事工</h1>",
+        "<p>您有以下三種方式支持我們的事工</p>",
+        "<p>1 電子轉賬 E-TRANSFER (首選)</p>\n<p>奉獻郵箱：<a href=\"mailto:cmicanada.donation@gmail.com\">cmicanada.donation@gmail.com</a><br>\n轉賬之後，請同時寄一份電子郵件到上述CMI郵箱，提供電子轉賬的security answer。以及您的個人資料(名字、地址、電話)和說明奉獻使用的用途。</p>",
+        "<p>2 CANADA HELP</p>\n<p>在Canadahelps.org網頁裡, 尋找 charity CMI canada。</p>\n<p>Canada Helps 透過email:<a href=\"mailto:cmicanada.donation@gmail.com\">cmicanada.donation@gmail.com</a> 告之奉獻者名字和奉獻金。</p>\n<p>Canada Helps 會出tax receipts 。</p>",
+        "<p>3 個人支票</p>\n<h2>支票抬頭：CMI Canada</h2>\n<h2>郵寄地址： 1909-175 Bamburgh Circle, Toronto M1W 3X8</h2>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_1ee70a2fbf6040aa9bcd71ca8eb700ed~mv2.jpg",
+          "alt": "donate.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "cmicanada.donation@gmail.com",
+          "href": "mailto:cmicanada.donation@gmail.com"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h1>支持我們的事工</h1>"
+        },
+        {
+          "type": "html",
+          "html": "<p>您有以下三種方式支持我們的事工</p>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_1ee70a2fbf6040aa9bcd71ca8eb700ed~mv2.jpg",
+          "alt": "donate.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<p>1 電子轉賬 E-TRANSFER (首選)</p>\n<p>奉獻郵箱：<a href=\"mailto:cmicanada.donation@gmail.com\">cmicanada.donation@gmail.com</a><br>\n轉賬之後，請同時寄一份電子郵件到上述CMI郵箱，提供電子轉賬的security answer。以及您的個人資料(名字、地址、電話)和說明奉獻使用的用途。</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>2 CANADA HELP</p>\n<p>在Canadahelps.org網頁裡, 尋找 charity CMI canada。</p>\n<p>Canada Helps 透過email:<a href=\"mailto:cmicanada.donation@gmail.com\">cmicanada.donation@gmail.com</a> 告之奉獻者名字和奉獻金。</p>\n<p>Canada Helps 會出tax receipts 。</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>3 個人支票</p>\n<h2>支票抬頭：CMI Canada</h2>\n<h2>郵寄地址： 1909-175 Bamburgh Circle, Toronto M1W 3X8</h2>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/cmi各地分会",
+      "path": "/cmi各地分会",
+      "title": "CMI各地分會",
+      "sourceText": "美國\n日本\n台灣\n紐西蘭\n澳洲\n加拿大",
+      "blocks": [
+        "<h2><a href=\"http://usacmi.org/blog/\">美國</a></h2>",
+        "<h2><a href=\"https://cmi-jp.org/en/\">日本</a></h2>",
+        "<h2><a href=\"https://www.facebook.com/www.cmigo.org/\">台灣</a></h2>",
+        "<h2><a href=\"https://cminz.org/\">紐西蘭</a></h2>",
+        "<h2><a href=\"https://auscmi.weebly.com/\">澳洲</a></h2>",
+        "<h2><a href=\"/\">加拿大</a></h2>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_fe09e7449b304142b514c95f468ccf9b~mv2.jpg",
+          "alt": "usa.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_0faf50f302234c78baf5333161190c5d~mv2.jpg",
+          "alt": "japan.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_14f93da3037d43f7841c1c546e2d5786~mv2.jpg",
+          "alt": "taiwan.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_3d1895ae630a4c51b79642e17e6184ad~mv2.jpg",
+          "alt": "newzealand_edited_edited.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_52d9354b6dfb46ffb750ffeed76ba3bb~mv2.jpg",
+          "alt": "australia_edited.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_ad46825e404a40dda6ab4d315a90b4a7~mv2.jpg",
+          "alt": "canada.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "href": "http://usacmi.org/blog/"
+        },
+        {
+          "label": "美國",
+          "href": "http://usacmi.org/blog/"
+        },
+        {
+          "label": "",
+          "href": "https://cmi-jp.org/en/"
+        },
+        {
+          "label": "日本",
+          "href": "https://cmi-jp.org/en/"
+        },
+        {
+          "label": "",
+          "href": "https://www.facebook.com/www.cmigo.org/"
+        },
+        {
+          "label": "台灣",
+          "href": "https://www.facebook.com/www.cmigo.org/"
+        },
+        {
+          "label": "",
+          "href": "https://cminz.org/"
+        },
+        {
+          "label": "紐西蘭",
+          "href": "https://cminz.org/"
+        },
+        {
+          "label": "",
+          "href": "https://auscmi.weebly.com/"
+        },
+        {
+          "label": "澳洲",
+          "href": "https://auscmi.weebly.com/"
+        },
+        {
+          "label": "",
+          "href": "/"
+        },
+        {
+          "label": "加拿大",
+          "href": "/"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_fe09e7449b304142b514c95f468ccf9b~mv2.jpg",
+          "alt": "usa.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"http://usacmi.org/blog/\">美國</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_0faf50f302234c78baf5333161190c5d~mv2.jpg",
+          "alt": "japan.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"https://cmi-jp.org/en/\">日本</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_14f93da3037d43f7841c1c546e2d5786~mv2.jpg",
+          "alt": "taiwan.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"https://www.facebook.com/www.cmigo.org/\">台灣</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_3d1895ae630a4c51b79642e17e6184ad~mv2.jpg",
+          "alt": "newzealand_edited_edited.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"https://cminz.org/\">紐西蘭</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_52d9354b6dfb46ffb750ffeed76ba3bb~mv2.jpg",
+          "alt": "australia_edited.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"https://auscmi.weebly.com/\">澳洲</a></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_ad46825e404a40dda6ab4d315a90b4a7~mv2.jpg",
+          "alt": "canada.jpg"
+        },
+        {
+          "type": "html",
+          "html": "<h2><a href=\"/\">加拿大</a></h2>"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/植堂事工",
+      "path": "/植堂事工",
+      "title": "前方宣教",
+      "sourceText": "前方宣教\nCMI Canada 現有兩名宣教士，盛行楚弟兄和李愛珍姐妹，他們夫婦在柬埔寨工場辛勤爲主做工，結下豐盛的果實。他們與其他宣教士及當地同工同心協力興旺福音，他們負責和協助的事工有：\n\n\n宿舍事工：現有三座宿舍，重點是培訓門徒，接待大學生並傳福音給他們，在CMI Canada支持的兩位本地牧者帶領下，到外地傳福音。\n比拉迦青年福音中心：是宿舍的同學們和校友敬拜和團契活動的地方，是宿舍事工所建立的教會。\n聖山教會：是由宿舍事工的同工發起，在本會宣教士的帶領下，經過多次的傳福音所建立的一個偏遠鄉村的教會，地點在普撒省。這裡現有一對加拿大去的宣教士與當地同工一起服事。在聖山，CMI Canada正在當地建立一個敬拜和教育中心，集宣教，扶貧和教育爲一體，服事當地貧窮的村落。\n兒童教育：在金邊的CMI 辦公室和金邊附近的鄉村都開有兒童中英文學習班和聖經故事班，傳福音給當地的兒童。\n另外，兩位宣教士還承擔柬埔寨工場主任，接待短宣隊和訪宣，關顧當地同工，提供扶貧等許多工作。\nCMI 金邊辦公室同工\n宿舍事工\n西羅亞之家\n大牧者之家\n2021/01/09\nBunny老師為四位弟兄施洗\n比拉迦青年福音中心\n聖山教會\n兒童教育",
+      "blocks": [
+        "<h2>前方宣教</h2>",
+        "<p>CMI Canada 現有兩名宣教士，盛行楚弟兄和李愛珍姐妹，他們夫婦在柬埔寨工場辛勤爲主做工，結下豐盛的果實。他們與其他宣教士及當地同工同心協力興旺福音，他們負責和協助的事工有：</p>\n\n<ul>\n<li>\n<p>宿舍事工：現有三座宿舍，重點是培訓門徒，接待大學生並傳福音給他們，在CMI Canada支持的兩位本地牧者帶領下，到外地傳福音。</p>\n</li>\n<li>\n<p>比拉迦青年福音中心：是宿舍的同學們和校友敬拜和團契活動的地方，是宿舍事工所建立的教會。</p>\n</li>\n<li>\n<p>聖山教會：是由宿舍事工的同工發起，在本會宣教士的帶領下，經過多次的傳福音所建立的一個偏遠鄉村的教會，地點在普撒省。這裡現有一對加拿大去的宣教士與當地同工一起服事。在聖山，CMI Canada正在當地建立一個敬拜和教育中心，集宣教，扶貧和教育爲一體，服事當地貧窮的村落。</p>\n</li>\n<li>\n<p>兒童教育：在金邊的CMI 辦公室和金邊附近的鄉村都開有兒童中英文學習班和聖經故事班，傳福音給當地的兒童。</p>\n</li>\n<li>\n<p>另外，兩位宣教士還承擔柬埔寨工場主任，接待短宣隊和訪宣，關顧當地同工，提供扶貧等許多工作。</p>\n</li>\n</ul>",
+        "<h2>CMI 金邊辦公室同工</h2>",
+        "<h2>宿舍事工</h2>",
+        "<h2>西羅亞之家</h2>",
+        "<h2>大牧者之家</h2>",
+        "<h2>2021/01/09<br>\nBunny老師為四位弟兄施洗</h2>",
+        "<h2>比拉迦青年福音中心</h2>",
+        "<h2>聖山教會</h2>",
+        "<h2>兒童教育</h2>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_dcc99aa7d127433a9ec6d790ccf3d073~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_e8c782e7f5544fe1a6950c5e145ab45c~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_789e0108f27442d58a9479369a329308~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_112516365eb14bddb802155922fb62e8~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_d963d7b74e4849ec886dd24b7fe09539~mv2.jpg",
+          "alt": "Picture18.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_d359e43f6ca544e4ae6a8d30b1fbe21e~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_333965e6a73344a7a650e0e64384d217~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_2bf418b9a7e244bdad30f94668e46c4d~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_d6665c2c726840b196bbbeae60186ea3~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_0c5074f8c6824d31b585c792036f62b2~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_a5b51a218c1a4765a0899bc01b12aa35~mv2.jpg",
+          "alt": "Picture21.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_2de2f96260b0479685e7bc0e69bb0799~mv2.jpg",
+          "alt": "Picture20.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_c059c0898c464c9aafe22d231249c8a3~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_6ccfe6db1f424816aba2a3adb8b466ac~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_d46d1fca828b474ebc892b751e7d0c62~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_2c28ba965df344e8add39b59357766cc~mv2.png",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_0be4a6fc5c20445d8eac569804f5cdcd~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_263c4bde915c493f8f6042ae2c33ee27~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_f01acb6fad334174b4bb90bb8396836d~mv2.jpg",
+          "alt": "Picture30.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_e507dbd298714f418366420695e005d8~mv2.jpg",
+          "alt": "Picture33.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_93531b3469a94843b870fff479382b92~mv2.jpg",
+          "alt": "Picture31.jpg"
+        },
+        {
+          "src": "/assets/images/e38421_f354b0117a144542b6f8fff755ce8ed8~mv2.jpg",
+          "alt": "Picture32.jpg"
+        }
+      ],
+      "links": [],
+      "ordered": [
+        {
+          "type": "html",
+          "html": "<h2>前方宣教</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<p>CMI Canada 現有兩名宣教士，盛行楚弟兄和李愛珍姐妹，他們夫婦在柬埔寨工場辛勤爲主做工，結下豐盛的果實。他們與其他宣教士及當地同工同心協力興旺福音，他們負責和協助的事工有：</p>\n\n<ul>\n<li>\n<p>宿舍事工：現有三座宿舍，重點是培訓門徒，接待大學生並傳福音給他們，在CMI Canada支持的兩位本地牧者帶領下，到外地傳福音。</p>\n</li>\n<li>\n<p>比拉迦青年福音中心：是宿舍的同學們和校友敬拜和團契活動的地方，是宿舍事工所建立的教會。</p>\n</li>\n<li>\n<p>聖山教會：是由宿舍事工的同工發起，在本會宣教士的帶領下，經過多次的傳福音所建立的一個偏遠鄉村的教會，地點在普撒省。這裡現有一對加拿大去的宣教士與當地同工一起服事。在聖山，CMI Canada正在當地建立一個敬拜和教育中心，集宣教，扶貧和教育爲一體，服事當地貧窮的村落。</p>\n</li>\n<li>\n<p>兒童教育：在金邊的CMI 辦公室和金邊附近的鄉村都開有兒童中英文學習班和聖經故事班，傳福音給當地的兒童。</p>\n</li>\n<li>\n<p>另外，兩位宣教士還承擔柬埔寨工場主任，接待短宣隊和訪宣，關顧當地同工，提供扶貧等許多工作。</p>\n</li>\n</ul>"
+        },
+        {
+          "type": "html",
+          "html": "<h2>CMI 金邊辦公室同工</h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_dcc99aa7d127433a9ec6d790ccf3d073~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_e8c782e7f5544fe1a6950c5e145ab45c~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_789e0108f27442d58a9479369a329308~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_112516365eb14bddb802155922fb62e8~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "html",
+          "html": "<h2>宿舍事工</h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d963d7b74e4849ec886dd24b7fe09539~mv2.jpg",
+          "alt": "Picture18.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d359e43f6ca544e4ae6a8d30b1fbe21e~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_333965e6a73344a7a650e0e64384d217~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_2bf418b9a7e244bdad30f94668e46c4d~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "html",
+          "html": "<h2>西羅亞之家</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<h2>大牧者之家</h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d6665c2c726840b196bbbeae60186ea3~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "html",
+          "html": "<h2>2021/01/09<br>\nBunny老師為四位弟兄施洗</h2>"
+        },
+        {
+          "type": "html",
+          "html": "<h2>比拉迦青年福音中心</h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_0c5074f8c6824d31b585c792036f62b2~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_a5b51a218c1a4765a0899bc01b12aa35~mv2.jpg",
+          "alt": "Picture21.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_2de2f96260b0479685e7bc0e69bb0799~mv2.jpg",
+          "alt": "Picture20.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_c059c0898c464c9aafe22d231249c8a3~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_6ccfe6db1f424816aba2a3adb8b466ac~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "html",
+          "html": "<h2>聖山教會</h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d46d1fca828b474ebc892b751e7d0c62~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_2c28ba965df344e8add39b59357766cc~mv2.png",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_0be4a6fc5c20445d8eac569804f5cdcd~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_263c4bde915c493f8f6042ae2c33ee27~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "html",
+          "html": "<h2>兒童教育</h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_f01acb6fad334174b4bb90bb8396836d~mv2.jpg",
+          "alt": "Picture30.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_e507dbd298714f418366420695e005d8~mv2.jpg",
+          "alt": "Picture33.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_93531b3469a94843b870fff479382b92~mv2.jpg",
+          "alt": "Picture31.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_f354b0117a144542b6f8fff755ce8ed8~mv2.jpg",
+          "alt": "Picture32.jpg"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/2024-01-07-最新短暫活動代禱",
+      "path": "/post/2024-01-07-最新短暫活動代禱",
+      "title": "2024-01-07 最新短暫活動代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2024-01-07 最新短暫活動代禱\nYouying Hua\nJan 10, 2024\n0 min read\n短宣代禱\nRecent Posts\nSee All\n2024-01-08 最新短暫活動代禱\n2024-01-06 最新短暫活動代禱\n2024-01-05 最新短暫活動代禱",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_32c2ef40a47b41d29a252c6e2623e88d~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-08 最新短暫活動代禱",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-06 最新短暫活動代禱",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-05-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-05 最新短暫活動代禱",
+          "href": "/post/2024-01-05-最新短暫活動代禱"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-01-10T11:11:36.404Z",
+      "category": "短宣代禱",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_32c2ef40a47b41d29a252c6e2623e88d~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/2024-01-08-最新短暫活動代禱",
+      "path": "/post/2024-01-08-最新短暫活動代禱",
+      "title": "2024-01-08 最新短暫活動代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2024-01-08 最新短暫活動代禱\nYouying Hua\nJan 10, 2024\n0 min read\n短宣代禱\nRecent Posts\nSee All\n2024-01-07 最新短暫活動代禱\n2024-01-06 最新短暫活動代禱\n2024-01-05 最新短暫活動代禱",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_f6f6d86bb354400e990bf0c6dbe881f9~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-07 最新短暫活動代禱",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-06 最新短暫活動代禱",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-05-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-05 最新短暫活動代禱",
+          "href": "/post/2024-01-05-最新短暫活動代禱"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-01-10T11:12:43.825Z",
+      "category": "短宣代禱",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_f6f6d86bb354400e990bf0c6dbe881f9~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/2024-01-05-最新短暫活動代禱",
+      "path": "/post/2024-01-05-最新短暫活動代禱",
+      "title": "2024-01-05 最新短暫活動代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2024-01-05 最新短暫活動代禱\nYouying Hua\nJan 6, 2024\n0 min read\n短宣代禱\nRecent Posts\nSee All\n2024-01-08 最新短暫活動代禱\n2024-01-07 最新短暫活動代禱\n2024-01-06 最新短暫活動代禱",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_0f4bf27085724a0fb1e63837d099cf20~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-08 最新短暫活動代禱",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-07 最新短暫活動代禱",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-06 最新短暫活動代禱",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-01-06T15:22:17.997Z",
+      "category": "短宣代禱",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_0f4bf27085724a0fb1e63837d099cf20~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/2024-01-03-最新短暫活動代禱",
+      "path": "/post/2024-01-03-最新短暫活動代禱",
+      "title": "2024-01-03 最新短暫活動代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2024-01-03 最新短暫活動代禱\nYouying Hua\nJan 4, 2024\n0 min read\n短宣代禱\nRecent Posts\nSee All\n2024-01-08 最新短暫活動代禱\n2024-01-07 最新短暫活動代禱\n2024-01-06 最新短暫活動代禱",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_7df5cfa9de214d8792fb45c1738c8fd6~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-08 最新短暫活動代禱",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-07 最新短暫活動代禱",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-06 最新短暫活動代禱",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-01-04T12:22:19.915Z",
+      "category": "短宣代禱",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_7df5cfa9de214d8792fb45c1738c8fd6~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/會長事工報告-2024年1月",
+      "path": "/post/會長事工報告-2024年1月",
+      "title": "會長事工報告 2024年1月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n會長事工報告 2024年1月\nYouying Hua\nFeb 6, 2024\n0 min read\n會長事工報告\nRecent Posts\nSee All\n會長事工報告 2026年9月\n會長事工報告 2026年4月\n會長事工報告 2023年12月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_d7fcf4d1a7364552bc5eca20aeab41b4~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_acf033a9b5fa493191f5a61b5a497362~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年9月",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "會長事工報告 2026年4月",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2023年12月"
+        },
+        {
+          "label": "會長事工報告 2023年12月",
+          "href": "/post/會長事工報告-2023年12月"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-02-07T01:25:50.656Z",
+      "category": "會長事工報告",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d7fcf4d1a7364552bc5eca20aeab41b4~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_acf033a9b5fa493191f5a61b5a497362~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/2024-01-06-最新短暫活動代禱",
+      "path": "/post/2024-01-06-最新短暫活動代禱",
+      "title": "2024-01-06 最新短暫活動代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2024-01-06 最新短暫活動代禱\nYouying Hua\nJan 7, 2024\n0 min read\n短宣代禱\nRecent Posts\nSee All\n2024-01-08 最新短暫活動代禱\n2024-01-07 最新短暫活動代禱\n2024-01-05 最新短暫活動代禱",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_529c5fbf52f84085b65aff4ce6ec813e~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-08 最新短暫活動代禱",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-07 最新短暫活動代禱",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-05-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-05 最新短暫活動代禱",
+          "href": "/post/2024-01-05-最新短暫活動代禱"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-01-07T15:21:36.808Z",
+      "category": "短宣代禱",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_529c5fbf52f84085b65aff4ce6ec813e~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/代禱月曆-2024年1月",
+      "path": "/post/代禱月曆-2024年1月",
+      "title": "代禱月曆 2024年1月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n代禱月曆 2024年1月\nYouying Hua\nDec 26, 2023\n0 min read\n代禱月曆\nRecent Posts\nSee All\n代禱月曆 2026年10月\n代禱月曆 2026年5月\n代禱月曆 2024年2月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_486d03cb90ef472eb01807a344121cf1~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "代禱月曆 2026年10月",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2026年5月"
+        },
+        {
+          "label": "代禱月曆 2026年5月",
+          "href": "/post/代禱月曆-2026年5月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2024年2月"
+        },
+        {
+          "label": "代禱月曆 2024年2月",
+          "href": "/post/代禱月曆-2024年2月"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2023-12-27T01:39:58.382Z",
+      "category": "代禱月曆",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_486d03cb90ef472eb01807a344121cf1~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/宣教心語2024年1月",
+      "path": "/post/宣教心語2024年1月",
+      "title": "宣教心語2024年1月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n宣教心語2024年1月\nYouying Hua\nFeb 17, 2024\n0 min read\n總幹事宣教心語",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_34e63415ee124f6fbbe488cf9daf6bf7~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-02-17T15:22:43.904Z",
+      "category": "總幹事宣教心語",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_34e63415ee124f6fbbe488cf9daf6bf7~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/會長事工報告-2026年4月",
+      "path": "/post/會長事工報告-2026年4月",
+      "title": "會長事工報告 2026年4月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n會長事工報告 2026年4月\nJoan Lin\nApr 28\n0 min read\n會長事工報告\nRecent Posts\nSee All\n會長事工報告 2026年9月\n會長事工報告 2024年1月\n會長事工報告 2023年12月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/5b88ab_dccc00d68e9546b5990f0e1f40914c9f~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年9月",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2024年1月"
+        },
+        {
+          "label": "會長事工報告 2024年1月",
+          "href": "/post/會長事工報告-2024年1月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2023年12月"
+        },
+        {
+          "label": "會長事工報告 2023年12月",
+          "href": "/post/會長事工報告-2023年12月"
+        }
+      ],
+      "author": "Joan Lin",
+      "published": "2026-04-28T14:47:53.478Z",
+      "category": "會長事工報告",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_dccc00d68e9546b5990f0e1f40914c9f~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/2023-12-30-最新短宣活动代祷",
+      "path": "/post/2023-12-30-最新短宣活动代祷",
+      "title": "2023-12-30 最新短暫活動代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2023-12-30 最新短暫活動代禱\nYouying Hua\nDec 30, 2023\n0 min read\nUpdated:\nJan 3, 2024\n短宣代禱\nRecent Posts\nSee All\n2024-01-08 最新短暫活動代禱\n2024-01-07 最新短暫活動代禱\n2024-01-06 最新短暫活動代禱",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_1819ece38d1c41f49d23e547c2cb80ba~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-08 最新短暫活動代禱",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-07 最新短暫活動代禱",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-06 最新短暫活動代禱",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2023-12-30T05:15:22.643Z",
+      "category": "短宣代禱",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_1819ece38d1c41f49d23e547c2cb80ba~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/代禱月曆-2026年5月",
+      "path": "/post/代禱月曆-2026年5月",
+      "title": "代禱月曆 2026年5月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n代禱月曆 2026年5月\nJoan Lin\nApr 28\n0 min read\n代禱月曆\nRecent Posts\nSee All\n代禱月曆 2026年10月\n代禱月曆 2024年2月\n代禱月曆 2024年1月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "代禱月曆 2026年10月",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2024年2月"
+        },
+        {
+          "label": "代禱月曆 2024年2月",
+          "href": "/post/代禱月曆-2024年2月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2024年1月"
+        },
+        {
+          "label": "代禱月曆 2024年1月",
+          "href": "/post/代禱月曆-2024年1月"
+        }
+      ],
+      "author": "Joan Lin",
+      "published": "2026-04-28T14:16:23.692Z",
+      "category": "代禱月曆",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/代禱月曆-2026年10月",
+      "path": "/post/代禱月曆-2026年10月",
+      "title": "代禱月曆 2026年10月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n代禱月曆 2026年10月\nJoan Lin\nOct 2\n0 min read\n代禱月曆\nRecent Posts\nSee All\n代禱月曆 2026年5月\n代禱月曆 2024年2月\n代禱月曆 2024年1月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2026年5月"
+        },
+        {
+          "label": "代禱月曆 2026年5月",
+          "href": "/post/代禱月曆-2026年5月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2024年2月"
+        },
+        {
+          "label": "代禱月曆 2024年2月",
+          "href": "/post/代禱月曆-2024年2月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2024年1月"
+        },
+        {
+          "label": "代禱月曆 2024年1月",
+          "href": "/post/代禱月曆-2024年1月"
+        }
+      ],
+      "author": "Joan Lin",
+      "published": "2026-10-03T01:27:19.153Z",
+      "category": "代禱月曆",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/會長事工報告-2023年12月",
+      "path": "/post/會長事工報告-2023年12月",
+      "title": "會長事工報告 2023年12月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n會長事工報告 2023年12月\nYouying Hua\nDec 26, 2023\n0 min read\n會長事工報告\nRecent Posts\nSee All\n會長事工報告 2026年9月\n會長事工報告 2026年4月\n會長事工報告 2024年1月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_11e135083d2c4f4e88627298a6b4b3d4~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_d31477a33c194c389a240f1db6b1c1d6~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_d265a467dc1342efaf5f61a0fc6c87a5~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/e38421_bebacd2f0ae0403d9217abff4e10f44c~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年9月",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "會長事工報告 2026年4月",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2024年1月"
+        },
+        {
+          "label": "會長事工報告 2024年1月",
+          "href": "/post/會長事工報告-2024年1月"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2023-12-27T01:37:36.728Z",
+      "category": "會長事工報告",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_11e135083d2c4f4e88627298a6b4b3d4~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d31477a33c194c389a240f1db6b1c1d6~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d265a467dc1342efaf5f61a0fc6c87a5~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_bebacd2f0ae0403d9217abff4e10f44c~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/代禱月曆-2024年2月",
+      "path": "/post/代禱月曆-2024年2月",
+      "title": "代禱月曆 2024年2月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n代禱月曆 2024年2月\nYouying Hua\nFeb 6, 2024\n0 min read\n代禱月曆\nRecent Posts\nSee All\n代禱月曆 2026年10月\n代禱月曆 2026年5月\n代禱月曆 2024年1月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_d13276e423fb431cb5ef399c95e392af~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "代禱月曆 2026年10月",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2026年5月"
+        },
+        {
+          "label": "代禱月曆 2026年5月",
+          "href": "/post/代禱月曆-2026年5月"
+        },
+        {
+          "label": "",
+          "href": "/post/代禱月曆-2024年1月"
+        },
+        {
+          "label": "代禱月曆 2024年1月",
+          "href": "/post/代禱月曆-2024年1月"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-02-07T01:21:36.731Z",
+      "category": "代禱月曆",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d13276e423fb431cb5ef399c95e392af~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/會長事工報告-2026年10月",
+      "path": "/post/會長事工報告-2026年10月",
+      "title": "會長事工報告 2026年9月",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n會長事工報告 2026年9月\nJoan Lin\nOct 2\n0 min read\n會長事工報告\nRecent Posts\nSee All\n會長事工報告 2026年4月\n會長事工報告 2024年1月\n會長事工報告 2023年12月",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/assets/images/5b88ab_ec7fc02aebb34d1aaf891b587d810f20~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "會長事工報告 2026年4月",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2024年1月"
+        },
+        {
+          "label": "會長事工報告 2024年1月",
+          "href": "/post/會長事工報告-2024年1月"
+        },
+        {
+          "label": "",
+          "href": "/post/會長事工報告-2023年12月"
+        },
+        {
+          "label": "會長事工報告 2023年12月",
+          "href": "/post/會長事工報告-2023年12月"
+        }
+      ],
+      "author": "Joan Lin",
+      "published": "2026-10-03T01:24:20.000Z",
+      "category": "會長事工報告",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_ec7fc02aebb34d1aaf891b587d810f20~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/post/2024-01-02-最新短暫活動代禱",
+      "path": "/post/2024-01-02-最新短暫活動代禱",
+      "title": "2024-01-02 最新短暫活動代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2024-01-02 最新短暫活動代禱\nYouying Hua\nJan 3, 2024\n0 min read\n短宣代禱\nRecent Posts\nSee All\n2024-01-08 最新短暫活動代禱\n2024-01-07 最新短暫活動代禱\n2024-01-06 最新短暫活動代禱",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_eefccfdf78c54b2fa3429b65e74e11d1~mv2.jpg",
+          "alt": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "See All",
+          "href": "/blog"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-08 最新短暫活動代禱",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-07 最新短暫活動代禱",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-06 最新短暫活動代禱",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        }
+      ],
+      "author": "Youying Hua",
+      "published": "2024-01-03T13:01:52.742Z",
+      "category": "短宣代禱",
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_eefccfdf78c54b2fa3429b65e74e11d1~mv2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/blog",
+      "path": "/blog",
+      "title": "最新動態",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n代禱月曆 2026年10月\n代禱月曆\nJoan Lin\nOct 2\n0 min read\n會長事工報告 2026年9月\n會長事工報告\nJoan Lin\nOct 2\n0 min read\n會長事工報告 2026年4月\n會長事工報告\nJoan Lin\nApr 28\n0 min read\n代禱月曆 2026年5月\n代禱月曆\nJoan Lin\nApr 28\n0 min read",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": "代禱月曆 2026年10月"
+        },
+        {
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": "會長事工報告 2026年9月"
+        },
+        {
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": "會長事工報告 2026年4月"
+        },
+        {
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": "代禱月曆 2026年5月"
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "代禱月曆 2026年10月",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年9月",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年4月",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "代禱月曆 2026年5月",
+          "href": "/post/代禱月曆-2026年5月"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": "代禱月曆 2026年10月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": "會長事工報告 2026年9月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": "會長事工報告 2026年4月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": "代禱月曆 2026年5月"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/blog/categories/總幹事宣教心語",
+      "path": "/blog/categories/總幹事宣教心語",
+      "title": "總幹事宣教心語",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n宣教心語2024年1月\n總幹事宣教心語\nYouying Hua\nFeb 17, 2024\n0 min read",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_34e63415ee124f6fbbe488cf9daf6bf7~mv2.jpg",
+          "alt": "宣教心語2024年1月"
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "宣教心語2024年1月",
+          "href": "/post/宣教心語2024年1月"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_34e63415ee124f6fbbe488cf9daf6bf7~mv2.jpg",
+          "alt": "宣教心語2024年1月"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/blog/categories/会长工作报告",
+      "path": "/blog/categories/会长工作报告",
+      "title": "會長事工報告",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n會長事工報告 2026年9月\n會長事工報告\nJoan Lin\nOct 2\n0 min read\n會長事工報告 2026年4月\n會長事工報告\nJoan Lin\nApr 28\n0 min read\n會長事工報告 2024年1月\n會長事工報告\nYouying Hua\nFeb 6, 2024\n0 min read\n會長事工報告 2023年12月\n會長事工報告\nYouying Hua\nDec 26, 2023\n0 min read",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": "會長事工報告 2026年9月"
+        },
+        {
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": "會長事工報告 2026年4月"
+        },
+        {
+          "src": "/assets/images/e38421_d7fcf4d1a7364552bc5eca20aeab41b4~mv2.jpg",
+          "alt": "會長事工報告 2024年1月"
+        },
+        {
+          "src": "/assets/images/e38421_11e135083d2c4f4e88627298a6b4b3d4~mv2.jpg",
+          "alt": "會長事工報告 2023年12月"
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "會長事工報告 2026年9月",
+          "href": "/post/會長事工報告-2026年10月"
+        },
+        {
+          "label": "會長事工報告 2026年4月",
+          "href": "/post/會長事工報告-2026年4月"
+        },
+        {
+          "label": "會長事工報告 2024年1月",
+          "href": "/post/會長事工報告-2024年1月"
+        },
+        {
+          "label": "會長事工報告 2023年12月",
+          "href": "/post/會長事工報告-2023年12月"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+          "alt": "會長事工報告 2026年9月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+          "alt": "會長事工報告 2026年4月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d7fcf4d1a7364552bc5eca20aeab41b4~mv2.jpg",
+          "alt": "會長事工報告 2024年1月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_11e135083d2c4f4e88627298a6b4b3d4~mv2.jpg",
+          "alt": "會長事工報告 2023年12月"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/blog/categories/短宣代禱",
+      "path": "/blog/categories/短宣代禱",
+      "title": "短宣代禱",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n2024-01-08 最新短暫活動代禱\n短宣代禱\nYouying Hua\nJan 10, 2024\n0 min read\n2024-01-07 最新短暫活動代禱\n短宣代禱\nYouying Hua\nJan 10, 2024\n0 min read\n2024-01-06 最新短暫活動代禱\n短宣代禱\nYouying Hua\nJan 7, 2024\n0 min read\n2024-01-05 最新短暫活動代禱\n短宣代禱\nYouying Hua\nJan 6, 2024\n0 min read",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/e38421_f6f6d86bb354400e990bf0c6dbe881f9~mv2.jpg",
+          "alt": "2024-01-08 最新短暫活動代禱"
+        },
+        {
+          "src": "/assets/images/e38421_32c2ef40a47b41d29a252c6e2623e88d~mv2.jpg",
+          "alt": "2024-01-07 最新短暫活動代禱"
+        },
+        {
+          "src": "/assets/images/e38421_529c5fbf52f84085b65aff4ce6ec813e~mv2.jpg",
+          "alt": "2024-01-06 最新短暫活動代禱"
+        },
+        {
+          "src": "/assets/images/e38421_0f4bf27085724a0fb1e63837d099cf20~mv2.jpg",
+          "alt": "2024-01-05 最新短暫活動代禱"
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "2024-01-08 最新短暫活動代禱",
+          "href": "/post/2024-01-08-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-07 最新短暫活動代禱",
+          "href": "/post/2024-01-07-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-06 最新短暫活動代禱",
+          "href": "/post/2024-01-06-最新短暫活動代禱"
+        },
+        {
+          "label": "2024-01-05 最新短暫活動代禱",
+          "href": "/post/2024-01-05-最新短暫活動代禱"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_f6f6d86bb354400e990bf0c6dbe881f9~mv2.jpg",
+          "alt": "2024-01-08 最新短暫活動代禱"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_32c2ef40a47b41d29a252c6e2623e88d~mv2.jpg",
+          "alt": "2024-01-07 最新短暫活動代禱"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_529c5fbf52f84085b65aff4ce6ec813e~mv2.jpg",
+          "alt": "2024-01-06 最新短暫活動代禱"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_0f4bf27085724a0fb1e63837d099cf20~mv2.jpg",
+          "alt": "2024-01-05 最新短暫活動代禱"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/blog/categories/代禱",
+      "path": "/blog/categories/代禱",
+      "title": "代禱月曆",
+      "sourceText": "All Posts\n會長事工報告\n代禱月曆\n短宣代禱\n總幹事宣教心語\nSearch\n代禱月曆 2026年10月\n代禱月曆\nJoan Lin\nOct 2\n0 min read\n代禱月曆 2026年5月\n代禱月曆\nJoan Lin\nApr 28\n0 min read\n代禱月曆 2024年2月\n代禱月曆\nYouying Hua\nFeb 6, 2024\n0 min read\n代禱月曆 2024年1月\n代禱月曆\nYouying Hua\nDec 26, 2023\n0 min read",
+      "blocks": [],
+      "images": [
+        {
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": "代禱月曆 2026年10月"
+        },
+        {
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": "代禱月曆 2026年5月"
+        },
+        {
+          "src": "/assets/images/e38421_d13276e423fb431cb5ef399c95e392af~mv2.jpg",
+          "alt": "代禱月曆 2024年2月"
+        },
+        {
+          "src": "/assets/images/e38421_486d03cb90ef472eb01807a344121cf1~mv2.jpg",
+          "alt": "代禱月曆 2024年1月"
+        }
+      ],
+      "links": [
+        {
+          "label": "All Posts",
+          "href": "/"
+        },
+        {
+          "label": "會長事工報告",
+          "href": "/blog/categories/会长工作报告"
+        },
+        {
+          "label": "代禱月曆",
+          "href": "/blog/categories/代禱"
+        },
+        {
+          "label": "短宣代禱",
+          "href": "/blog/categories/短宣代禱"
+        },
+        {
+          "label": "總幹事宣教心語",
+          "href": "/blog/categories/總幹事宣教心語"
+        },
+        {
+          "label": "代禱月曆 2026年10月",
+          "href": "/post/代禱月曆-2026年10月"
+        },
+        {
+          "label": "代禱月曆 2026年5月",
+          "href": "/post/代禱月曆-2026年5月"
+        },
+        {
+          "label": "代禱月曆 2024年2月",
+          "href": "/post/代禱月曆-2024年2月"
+        },
+        {
+          "label": "代禱月曆 2024年1月",
+          "href": "/post/代禱月曆-2024年1月"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+          "alt": "代禱月曆 2026年10月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+          "alt": "代禱月曆 2026年5月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_d13276e423fb431cb5ef399c95e392af~mv2.jpg",
+          "alt": "代禱月曆 2024年2月"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_486d03cb90ef472eb01807a344121cf1~mv2.jpg",
+          "alt": "代禱月曆 2024年1月"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/event-details/jian-bu-zhai-xuan-jiao-jian-zheng-fen-xiang-da-hui",
+      "path": "/event-details/jian-bu-zhai-xuan-jiao-jian-zheng-fen-xiang-da-hui",
+      "title": "柬埔寨宣教见证分享大会",
+      "sourceText": "柬埔寨宣教见证分享大会\nSat, Feb 25\n|\n华夏圣经教会北堂\nRegistration is Closed\nSee other events\nTime & Location\nFeb 25, 2023, 10:00 a.m. – 3:30 p.m.\n华夏圣经教会北堂, 25 Axsmith Cres. , Toronto, Canada\nAbout the event\n柬埔寨宣教见证分享大会。\nShow More\nShare this event",
+      "blocks": [
+        "<p>柬埔寨宣教见证分享大会</p>",
+        "<p>Sat, Feb 25</p>",
+        "<p>|</p>",
+        "<p>华夏圣经教会北堂</p>",
+        "<p>Registration is Closed</p>",
+        "<p>Time &amp; Location</p>",
+        "<p>Feb 25, 2023, 10:00 a.m. – 3:30 p.m.</p>",
+        "<p>华夏圣经教会北堂, 25 Axsmith Cres. , Toronto, Canada</p>",
+        "<p>About the event</p>",
+        "<p>柬埔寨宣教见证分享大会。</p>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/e38421_2d9c21832a1349da889b71e8889abf3f~mv2.jpg",
+          "alt": "柬埔寨宣教见证分享大会"
+        }
+      ],
+      "links": [
+        {
+          "label": "See other events",
+          "href": "/"
+        },
+        {
+          "label": "",
+          "href": "https://twitter.com/intent/tweet?url=https://www.cmicanada.org/event-details/jian-bu-zhai-xuan-jiao-jian-zheng-fen-xiang-da-hui&text=Check%20out%20this%20event.%20Hope%20to%20see%20you%20there!"
+        },
+        {
+          "label": "",
+          "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cmicanada.org%2Fevent-details%2Fjian-bu-zhai-xuan-jiao-jian-zheng-fen-xiang-da-hui"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/e38421_2d9c21832a1349da889b71e8889abf3f~mv2.jpg",
+          "alt": "柬埔寨宣教见证分享大会"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cmicanada.org/event-details/event-1",
+      "path": "/event-details/event-1",
+      "title": "Event",
+      "sourceText": "Event\nMon, Mar 17\n|\nSan Francisco\nJoin Us\nRegistration is Closed\nSee other events\nTime & Location\nMar 17, 2025, 5:00 p.m.\nSan Francisco, CA, USA\nAbout the event\nThis is your event description. Use this space to provide a brief summary of the event, as well as any additional information so attendees know what's in store.\nConsider adding details such as what’s on the agenda, special recommended attire, and other relevant information that would be helpful for guests. For any speakers that will be presenting at your event, this is a great opportunity to describe the topics covered or include a short bio. If the event is geared towards a specific type of audience, make sure to note that here.\nThis is your opportunity to get people excited about attending your event, so don’t be afraid to show personality and enthusiasm! Encourage visitors to register, RSVP, or buy a ticket today to make sure their spot is saved.\nShow More\nShare this event",
+      "blocks": [
+        "<p>Event</p>",
+        "<p>Mon, Mar 17</p>",
+        "<p>|</p>",
+        "<p>San Francisco</p>",
+        "<p>Join Us</p>",
+        "<p>Registration is Closed</p>",
+        "<p>Time &amp; Location</p>",
+        "<p>Mar 17, 2025, 5:00 p.m.</p>",
+        "<p>San Francisco, CA, USA</p>",
+        "<p>About the event</p>",
+        "<p>This is your event description. Use this space to provide a brief summary of the event, as well as any additional information so attendees know what&#x27;s in store.</p>",
+        "<p>Consider adding details such as what’s on the agenda, special recommended attire, and other relevant information that would be helpful for guests. For any speakers that will be presenting at your event, this is a great opportunity to describe the topics covered or include a short bio. If the event is geared towards a specific type of audience, make sure to note that here.</p>",
+        "<p>This is your opportunity to get people excited about attending your event, so don’t be afraid to show personality and enthusiasm! Encourage visitors to register, RSVP, or buy a ticket today to make sure their spot is saved.</p>"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/596320_914de595af62450f9762d116eb6041eb~mv2_d_3832_3832_s_4_2.jpg",
+          "alt": "Event"
+        }
+      ],
+      "links": [
+        {
+          "label": "See other events",
+          "href": "/"
+        },
+        {
+          "label": "",
+          "href": "https://twitter.com/intent/tweet?url=https://www.cmicanada.org/event-details/event-1&text=Check%20out%20this%20event.%20Hope%20to%20see%20you%20there!"
+        },
+        {
+          "label": "",
+          "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cmicanada.org%2Fevent-details%2Fevent-1"
+        }
+      ],
+      "ordered": [
+        {
+          "type": "image",
+          "src": "/assets/images/596320_914de595af62450f9762d116eb6041eb~mv2_d_3832_3832_s_4_2.jpg",
+          "alt": "Event"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "https://static.wixstatic.com/media/9bc60f_d32c3a9e1ccf47d59d12469b775e854a~mv2.jpg": "/assets/images/9bc60f_d32c3a9e1ccf47d59d12469b775e854a~mv2.jpg",
+    "https://static.wixstatic.com/media/9bc60f_1ca32a60471b4d4f98dbe740109039e8~mv2.jpeg": "/assets/images/9bc60f_1ca32a60471b4d4f98dbe740109039e8~mv2.jpeg",
+    "https://static.wixstatic.com/media/9bc60f_614dd6ac686942bfb8a00c65cfd5f260~mv2.jpg": "/assets/images/9bc60f_614dd6ac686942bfb8a00c65cfd5f260~mv2.jpg",
+    "https://static.wixstatic.com/media/9bc60f_15bcf0a7bd374c429b861faed11226e3~mv2.jpeg": "/assets/images/9bc60f_15bcf0a7bd374c429b861faed11226e3~mv2.jpeg",
+    "https://static.wixstatic.com/media/9bc60f_ca786639299b4e03922421865acda02c~mv2.png": "/assets/images/9bc60f_ca786639299b4e03922421865acda02c~mv2.png",
+    "https://static.wixstatic.com/media/11062b_9fe8cf7ac275438cafa34f90833b0230~mv2.jpg": "/assets/images/11062b_9fe8cf7ac275438cafa34f90833b0230~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_dd3c2d53042d4b67bf136fa10455be6a~mv2.jpg": "/assets/images/e38421_dd3c2d53042d4b67bf136fa10455be6a~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_ca7e1cf2b9c3486bbefa217ab9f15d2e~mv2.jpg": "/assets/images/e38421_ca7e1cf2b9c3486bbefa217ab9f15d2e~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_deb0a84a44be466187cc649de466e738~mv2.jpg": "/assets/images/e38421_deb0a84a44be466187cc649de466e738~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_7921eedd8d68441893c5f58ce24b47e2~mv2.jpg": "/assets/images/e38421_7921eedd8d68441893c5f58ce24b47e2~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_edbc9ae08c6349fcb198702d7411bcaf~mv2.jpg": "/assets/images/e38421_edbc9ae08c6349fcb198702d7411bcaf~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_59b063dc73d5469980e27608c4c66e82~mv2.jpg": "/assets/images/e38421_59b063dc73d5469980e27608c4c66e82~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_2d9cf2e5adde4b87895cbe897298b7c4~mv2.jpg": "/assets/images/e38421_2d9cf2e5adde4b87895cbe897298b7c4~mv2.jpg",
+    "https://static.wixstatic.com/media/5b88ab_4353bbfda18b403b919795ee818e33ae~mv2.jpg": "/assets/images/5b88ab_4353bbfda18b403b919795ee818e33ae~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_ba3a78e0c04b4f7caccf581ce8b7ad54~mv2.jpg": "/assets/images/e38421_ba3a78e0c04b4f7caccf581ce8b7ad54~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_5321b963eec44332a3ec0e5ced2aad02~mv2.jpg": "/assets/images/e38421_5321b963eec44332a3ec0e5ced2aad02~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_acf5c5a9ff8443a5a67c133d535fd05a~mv2.jpg": "/assets/images/e38421_acf5c5a9ff8443a5a67c133d535fd05a~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_a0edc897e8a8480d914dce7b711397fd~mv2.jpg": "/assets/images/e38421_a0edc897e8a8480d914dce7b711397fd~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_29a03571f8aa49efacd1e47bbb06de0d~mv2.jpg": "/assets/images/e38421_29a03571f8aa49efacd1e47bbb06de0d~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_3b73a108179548999c6e236031414d34~mv2.jpg": "/assets/images/e38421_3b73a108179548999c6e236031414d34~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d44d3a0e33364643bb94dfedb065995b~mv2.png": "/assets/images/e38421_d44d3a0e33364643bb94dfedb065995b~mv2.png",
+    "https://static.wixstatic.com/media/e38421_3d39a2a8d8bd40da8f89523c6f048dea~mv2.png": "/assets/images/e38421_3d39a2a8d8bd40da8f89523c6f048dea~mv2.png",
+    "https://static.wixstatic.com/media/e38421_c75fe3f0bd4e4e0fb23824f2c1bd8ea3~mv2.png": "/assets/images/e38421_c75fe3f0bd4e4e0fb23824f2c1bd8ea3~mv2.png",
+    "https://static.wixstatic.com/media/e38421_00bee083564540b6bd6fbf01b3874a1b~mv2.png": "/assets/images/e38421_00bee083564540b6bd6fbf01b3874a1b~mv2.png",
+    "https://static.wixstatic.com/media/e38421_7d5c4bda598e457aa8116a553d6b16e3~mv2.jpg": "/assets/images/e38421_7d5c4bda598e457aa8116a553d6b16e3~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_058d357d41494012890217898d113461~mv2.jpg": "/assets/images/e38421_058d357d41494012890217898d113461~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_f5a20ae84ac5468bb17de1c85c5b3e00~mv2.jpg": "/assets/images/e38421_f5a20ae84ac5468bb17de1c85c5b3e00~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_e7ff374eede8472da3477fe6245476d0~mv2.jpg": "/assets/images/e38421_e7ff374eede8472da3477fe6245476d0~mv2.jpg",
+    "https://static.wixstatic.com/media/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg": "/assets/images/5b88ab_ed320736ba1c4c2a99421fd3ae13e684~mv2.jpg",
+    "https://static.wixstatic.com/media/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg": "/assets/images/5b88ab_cced00e64ebf47fd828b0486a07e959a~mv2.jpg",
+    "https://static.wixstatic.com/media/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg": "/assets/images/5b88ab_539f4e0c028e465683669da0087af023~mv2.jpg",
+    "https://static.wixstatic.com/media/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg": "/assets/images/5b88ab_3d62df66d85146cda032916343b77ef6~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_1ee70a2fbf6040aa9bcd71ca8eb700ed~mv2.jpg": "/assets/images/e38421_1ee70a2fbf6040aa9bcd71ca8eb700ed~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_fe09e7449b304142b514c95f468ccf9b~mv2.jpg": "/assets/images/e38421_fe09e7449b304142b514c95f468ccf9b~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_0faf50f302234c78baf5333161190c5d~mv2.jpg": "/assets/images/e38421_0faf50f302234c78baf5333161190c5d~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_14f93da3037d43f7841c1c546e2d5786~mv2.jpg": "/assets/images/e38421_14f93da3037d43f7841c1c546e2d5786~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_3d1895ae630a4c51b79642e17e6184ad~mv2.jpg": "/assets/images/e38421_3d1895ae630a4c51b79642e17e6184ad~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_52d9354b6dfb46ffb750ffeed76ba3bb~mv2.jpg": "/assets/images/e38421_52d9354b6dfb46ffb750ffeed76ba3bb~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_ad46825e404a40dda6ab4d315a90b4a7~mv2.jpg": "/assets/images/e38421_ad46825e404a40dda6ab4d315a90b4a7~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_dcc99aa7d127433a9ec6d790ccf3d073~mv2.jpg": "/assets/images/e38421_dcc99aa7d127433a9ec6d790ccf3d073~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_e8c782e7f5544fe1a6950c5e145ab45c~mv2.jpg": "/assets/images/e38421_e8c782e7f5544fe1a6950c5e145ab45c~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_789e0108f27442d58a9479369a329308~mv2.jpg": "/assets/images/e38421_789e0108f27442d58a9479369a329308~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_112516365eb14bddb802155922fb62e8~mv2.jpg": "/assets/images/e38421_112516365eb14bddb802155922fb62e8~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d963d7b74e4849ec886dd24b7fe09539~mv2.jpg": "/assets/images/e38421_d963d7b74e4849ec886dd24b7fe09539~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d359e43f6ca544e4ae6a8d30b1fbe21e~mv2.jpg": "/assets/images/e38421_d359e43f6ca544e4ae6a8d30b1fbe21e~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_333965e6a73344a7a650e0e64384d217~mv2.jpg": "/assets/images/e38421_333965e6a73344a7a650e0e64384d217~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_2bf418b9a7e244bdad30f94668e46c4d~mv2.jpg": "/assets/images/e38421_2bf418b9a7e244bdad30f94668e46c4d~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d6665c2c726840b196bbbeae60186ea3~mv2.jpg": "/assets/images/e38421_d6665c2c726840b196bbbeae60186ea3~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_0c5074f8c6824d31b585c792036f62b2~mv2.jpg": "/assets/images/e38421_0c5074f8c6824d31b585c792036f62b2~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_a5b51a218c1a4765a0899bc01b12aa35~mv2.jpg": "/assets/images/e38421_a5b51a218c1a4765a0899bc01b12aa35~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_2de2f96260b0479685e7bc0e69bb0799~mv2.jpg": "/assets/images/e38421_2de2f96260b0479685e7bc0e69bb0799~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_c059c0898c464c9aafe22d231249c8a3~mv2.jpg": "/assets/images/e38421_c059c0898c464c9aafe22d231249c8a3~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_6ccfe6db1f424816aba2a3adb8b466ac~mv2.jpg": "/assets/images/e38421_6ccfe6db1f424816aba2a3adb8b466ac~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d46d1fca828b474ebc892b751e7d0c62~mv2.jpg": "/assets/images/e38421_d46d1fca828b474ebc892b751e7d0c62~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_2c28ba965df344e8add39b59357766cc~mv2.png": "/assets/images/e38421_2c28ba965df344e8add39b59357766cc~mv2.png",
+    "https://static.wixstatic.com/media/e38421_0be4a6fc5c20445d8eac569804f5cdcd~mv2.jpg": "/assets/images/e38421_0be4a6fc5c20445d8eac569804f5cdcd~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_263c4bde915c493f8f6042ae2c33ee27~mv2.jpg": "/assets/images/e38421_263c4bde915c493f8f6042ae2c33ee27~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_f01acb6fad334174b4bb90bb8396836d~mv2.jpg": "/assets/images/e38421_f01acb6fad334174b4bb90bb8396836d~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_e507dbd298714f418366420695e005d8~mv2.jpg": "/assets/images/e38421_e507dbd298714f418366420695e005d8~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_93531b3469a94843b870fff479382b92~mv2.jpg": "/assets/images/e38421_93531b3469a94843b870fff479382b92~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_f354b0117a144542b6f8fff755ce8ed8~mv2.jpg": "/assets/images/e38421_f354b0117a144542b6f8fff755ce8ed8~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_32c2ef40a47b41d29a252c6e2623e88d~mv2.jpg": "/assets/images/e38421_32c2ef40a47b41d29a252c6e2623e88d~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_f6f6d86bb354400e990bf0c6dbe881f9~mv2.jpg": "/assets/images/e38421_f6f6d86bb354400e990bf0c6dbe881f9~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_0f4bf27085724a0fb1e63837d099cf20~mv2.jpg": "/assets/images/e38421_0f4bf27085724a0fb1e63837d099cf20~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_7df5cfa9de214d8792fb45c1738c8fd6~mv2.jpg": "/assets/images/e38421_7df5cfa9de214d8792fb45c1738c8fd6~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d7fcf4d1a7364552bc5eca20aeab41b4~mv2.jpg": "/assets/images/e38421_d7fcf4d1a7364552bc5eca20aeab41b4~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_acf033a9b5fa493191f5a61b5a497362~mv2.jpg": "/assets/images/e38421_acf033a9b5fa493191f5a61b5a497362~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_529c5fbf52f84085b65aff4ce6ec813e~mv2.jpg": "/assets/images/e38421_529c5fbf52f84085b65aff4ce6ec813e~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_486d03cb90ef472eb01807a344121cf1~mv2.jpg": "/assets/images/e38421_486d03cb90ef472eb01807a344121cf1~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_34e63415ee124f6fbbe488cf9daf6bf7~mv2.jpg": "/assets/images/e38421_34e63415ee124f6fbbe488cf9daf6bf7~mv2.jpg",
+    "https://static.wixstatic.com/media/5b88ab_dccc00d68e9546b5990f0e1f40914c9f~mv2.jpg": "/assets/images/5b88ab_dccc00d68e9546b5990f0e1f40914c9f~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_1819ece38d1c41f49d23e547c2cb80ba~mv2.jpg": "/assets/images/e38421_1819ece38d1c41f49d23e547c2cb80ba~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_11e135083d2c4f4e88627298a6b4b3d4~mv2.jpg": "/assets/images/e38421_11e135083d2c4f4e88627298a6b4b3d4~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d31477a33c194c389a240f1db6b1c1d6~mv2.jpg": "/assets/images/e38421_d31477a33c194c389a240f1db6b1c1d6~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d265a467dc1342efaf5f61a0fc6c87a5~mv2.jpg": "/assets/images/e38421_d265a467dc1342efaf5f61a0fc6c87a5~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_bebacd2f0ae0403d9217abff4e10f44c~mv2.jpg": "/assets/images/e38421_bebacd2f0ae0403d9217abff4e10f44c~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_d13276e423fb431cb5ef399c95e392af~mv2.jpg": "/assets/images/e38421_d13276e423fb431cb5ef399c95e392af~mv2.jpg",
+    "https://static.wixstatic.com/media/5b88ab_ec7fc02aebb34d1aaf891b587d810f20~mv2.jpg": "/assets/images/5b88ab_ec7fc02aebb34d1aaf891b587d810f20~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_eefccfdf78c54b2fa3429b65e74e11d1~mv2.jpg": "/assets/images/e38421_eefccfdf78c54b2fa3429b65e74e11d1~mv2.jpg",
+    "https://static.wixstatic.com/media/e38421_2d9c21832a1349da889b71e8889abf3f~mv2.jpg": "/assets/images/e38421_2d9c21832a1349da889b71e8889abf3f~mv2.jpg",
+    "https://static.wixstatic.com/media/596320_914de595af62450f9762d116eb6041eb~mv2_d_3832_3832_s_4_2.jpg": "/assets/images/596320_914de595af62450f9762d116eb6041eb~mv2_d_3832_3832_s_4_2.jpg",
+    "https://static.wixstatic.com/media/df5eec_70c326b8c0f7445cbf4b20e06db868ac~mv2.jpeg": "/assets/images/df5eec_70c326b8c0f7445cbf4b20e06db868ac~mv2.jpeg",
+    "https://static.wixstatic.com/media/e38421_543d9b92dff94f42acceb5724f7422a7~mv2.jpg": "/assets/images/e38421_543d9b92dff94f42acceb5724f7422a7~mv2.jpg"
+  },
+  "limitations": [
+    "Wix-only contact submission is replaced with an email-draft form.",
+    "The source home StripShowcase iframe renders blank; no gallery content was publicly visible.",
+    "The source footer uses M1V 3X8; the contact/donation pages use M1W 3X8. Both are retained.",
+    "The event-1 placeholder is preserved as an archived source page."
+  ]
+}

@@ -1,79 +1,43 @@
-# Hydra
+# CMI Canada — 加拿大國際關懷協會
 
-Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
+A complete static redesign of [cmicanada.org](https://www.cmicanada.org), replacing the obsolete Hydra/Jekyll sales template. Chinese-first editorial layouts, warm ivory and forest green, original ministry photography, accessible navigation, responsive galleries, and full-size report reading.
 
-![CMI Canada screenshot](images/_screenshot.png)
+## Run and edit
 
-Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+Requires Node.js 20 or later; no npm dependencies or framework installation.
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+```sh
+npm run build
+npm run check
+npm run dev
+```
 
-## Features
+Preview: http://localhost:4173. The development server binds to the local computer only. Stop with Ctrl+C.
 
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination
-* Post category pages
-* Disqus comments for posts
-* Staff and author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+- `content/site.json` is the editable source: 41 captured public routes, 16 posts, original text, ordered rich-text blocks, image references, source URLs, and capture notes.
+- `content/deployment.json` sets the publishing origin for canonical URLs, social images, and the sitemap.
+- `scripts/build.mjs` generates all HTML pages at the repository root.
+- `assets/style.css` and `assets/app.js` contain the design and browser interactions.
+- `assets/images/` contains all 83 original images and responsive WebP copies. Original report images remain available without resizing.
+- `scripts/validate.mjs` checks route coverage, original images, imported rich text, headings, local links, anchors, metadata, and search coverage.
+- `content/migration.md` records preservation coverage and source discrepancies.
 
-## Setup
+After changing content or templates, run `npm run build` and `npm run check`. CSS and JavaScript edits need a browser reload. To regenerate responsive images, install Pillow in a separate Python environment and run `python scripts/optimize-images.py`.
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+## Visitor experience
 
-## Develop
+- A mission-led homepage at `/` and `/home/`; all original updates are available at `/blog/`.
+- Seven ministry pages, the organization and Canada introductions, statement of faith, and international branches.
+- All 16 posts with their original titles, authors, publication dates, and complete report images. Click an image to read the original or print an article.
+- Four news categories, article filtering, and site-wide search.
+- Both activity posters and two archived event pages. The source placeholder event is retained but marked `noindex`.
+- All three donation methods and the original donation/contact details.
+- Contact fields create a draft in the visitor's email application. Visitors must confirm and send it themselves; this is not an online submission service.
 
-Hydra was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+## Hosting
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Publishing destination: [cmicanada.github.io](https://cmicanada.github.io/). GitHub Pages publishes the `master` branch at the repository root. `.nojekyll` serves the generated HTML directly. Build and validate locally before merging a change into `master`; the merge triggers the existing Pages deployment.
 
-~~~bash
-$ bundle install
-~~~
+On October 12, 2026, the owner selected `cmicanada.github.io` as the publishing destination. The live `cmicanada.org` remains on Wix. No custom domain is configured for this repository. A future domain cutover should update `content/deployment.json`, rebuild the site, and coordinate the GitHub Pages custom-domain setting with Wix DNS.
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Hydra is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-### Contact Form
-
-* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address listed in company details.
-
-### Staff
-
-* Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
-
-### Navigation
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+Public CMI text and media retain their source ownership. The original template license is retained in `LICENSE` for the repository's historical attribution.
