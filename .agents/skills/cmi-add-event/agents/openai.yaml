@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage CMI Events"
+  short_description: "Manage multilingual CMI events and posters"
+  default_prompt: "Use $cmi-add-event to add the supplied event and poster to the CMI Canada website, including translated details and accurate registration status."

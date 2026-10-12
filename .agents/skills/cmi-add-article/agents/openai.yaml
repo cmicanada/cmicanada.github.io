@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add CMI Article"
+  short_description: "Publish readable CMI articles and ministry reports"
+  default_prompt: "Use $cmi-add-article to prepare the supplied article for the CMI Canada website in all three languages, preserving its full content."
