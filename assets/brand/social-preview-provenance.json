@@ -1,11 +1,11 @@
 {
   "tool": "image_gen.imagegen (built-in)",
-  "file": "/assets/brand/cmi-social-preview-v1.png",
-  "width": 1732,
-  "height": 908,
+  "file": "/assets/brand/cmi-social-preview-v2.png",
+  "width": 1733,
+  "height": 907,
   "reference": "/assets/brand/cmi-logo-refined-v1.png",
   "purpose": "Dedicated site-wide social sharing card; original sunset image remains preserved.",
-  "design": "Traditional Chinese mission headline, approved logo reference, ivory/forest-green/copper palette, illustrative globe and cross. No documentary ministry photo.",
+  "design": "Traditional Chinese mission headline, approved logo reference, ivory/forest-green/copper palette, illustrative globe and cross. No documentary ministry photo. Version 2 highlights only 出 / out in warm copper, keeping 進 / 进 / into forest green.",
   "text": [
     "福音進中華",
     "福音出中華",
@@ -13,6 +13,26 @@
     "cmicanada.github.io"
   ],
   "localeVariants": [
+    {
+      "locale": "zh-Hant",
+      "file": "/assets/brand/cmi-social-preview-v2.png",
+      "width": 1733,
+      "height": 907
+    },
+    {
+      "locale": "zh-Hans",
+      "file": "/assets/brand/cmi-social-preview-zh-hans-v2.png",
+      "width": 1733,
+      "height": 907
+    },
+    {
+      "locale": "en",
+      "file": "/assets/brand/cmi-social-preview-en-v2.png",
+      "width": 1733,
+      "height": 907
+    }
+  ],
+  "preservedPrevious": [
     {
       "locale": "zh-Hant",
       "file": "/assets/brand/cmi-social-preview-v1.png",
@@ -31,5 +51,11 @@
       "width": 1733,
       "height": 907
     }
-  ]
+  ],
+  "editReferences": [
+    "/assets/brand/cmi-social-preview-v1.png",
+    "/assets/brand/cmi-social-preview-zh-hans-v1.png",
+    "/assets/brand/cmi-social-preview-en-v1.png"
+  ],
+  "editPrompt": "Change only 出 in the second Chinese mission headline, or out in the second English headline, to warm copper #b8693b. Preserve all other text, forest-green first headline, typography, logo, URL, layout, ivory background and globe/cross illustration."
 }
