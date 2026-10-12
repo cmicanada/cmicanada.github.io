@@ -30,6 +30,7 @@ After introducing new Chinese characters, regenerate the font subset with `pytho
 
 ## Visitor experience
 
+- Reading defaults designed for older church and ministry audiences: 20px main copy, 18px navigation and controls, 16px dates/contact details, generous line spacing, stronger text contrast, and single-column mobile articles. Sizes use `rem` to respect browser font preferences. On phones, the header uses two rows with visible search and menu labels and larger touch targets.
 - A mission-led homepage at `/` and `/home/`; all original updates are available at `/blog/`.
 - Seven ministry pages, the organization and Canada introductions, statement of faith, and international branches.
 - All 16 posts with their original titles, authors, publication dates, and complete report images. Click an image to read the original or print an article.
