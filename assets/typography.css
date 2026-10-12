@@ -67,6 +67,147 @@ h1, h2, h3 { letter-spacing: -.025em; font-weight: 600; }
   .header-actions .button span { display: none; }
   .hero h1 { font-size: 43px; }
 }
+/* Reading defaults: keep copy large on phones as well as desktop screens.
+   Relative sizes also respect the visitor's browser font-size preference. */
+:root { --body: #2f4238; --muted: #506052; --orange: #9b512d; }
+body { font-size: 1.25rem; line-height: 1.85; }
+.hero-subtitle, .prose, .about-home p, .about-intro p,
+.participate p, .event-details p, .donation-methods p,
+.contact-info dl, .contact-layout input, .contact-layout textarea {
+  font-size: 1.25rem; line-height: 1.9;
+}
+.prose { max-width: 42rem; }
+.post-prose { max-width: none; }
+.post-prose p, .post-prose li { max-width: 42rem; }
+.prose h2 { font-size: 2rem; }
+.prose h3 { font-size: 1.625rem; }
+.hero-copy > .eyebrow, .hero-footnote, .photo-label,
+.post-meta, .blog-posts .post-meta, .eyebrow,
+.ministry-list p, .ministry-card p, .ministry-card .eyebrow,
+.ministry-list > a.all-ministries, .ministry-photo > span,
+.page-heading > p, .breadcrumbs, .result-count,
+.about-row p, .article-layout > aside > p, .article-meta,
+.archive-notice, .archive-post > span:first-child, .archive-post time,
+.donation-methods h2 small, .contact-info dt, .contact-layout label,
+.contact-layout form > p, .footer, .footer-grid p,
+.footer-grid > div:nth-child(3) > a, .footer-bottom, .footer-bottom > p,
+.search-result small, #search-status, #image-dialog .image-original {
+  font-size: 1rem; letter-spacing: .02em;
+}
+/* English section labels are secondary; Chinese reading copy stays 16–20px. */
+.eyebrow { font-size: .875rem; letter-spacing: .08em; }
+.hero-copy > .eyebrow, .ministry-card .eyebrow { font-size: 1rem; }
+.button, .button.small, .text-link, .hero-buttons .button,
+.hero-buttons .text-link, .section-head > .text-link, .event-card .text-link,
+.participate .button, .participate .text-link, .category-tabs,
+.blog-search input, .content-sidebar > a, .sidebar-prayer > a,
+.print-button, .copy-email, .donation-email, .archive-grid a,
+.archive-post, .footer-grid h3, .search-field input {
+  font-size: 1.125rem;
+}
+.copy-status { font-size: 1rem !important; }
+.post-meta { flex-wrap: wrap; gap: 6px 16px; }
+.post-card h3, .blog-posts h3, .home-posts .post-card h3 { font-size: 1.5rem; line-height: 1.65; }
+.button { min-height: 52px; }
+.text-link, .copy-email, .print-button, .category-tabs a,
+.footer-grid > div > a:not(.footer-brand), .footer-bottom > a {
+  min-height: 44px; align-content: center;
+}
+.search-toggle { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
+.search-label { display: none; }
+.search-close, .image-close { min-width: 48px; min-height: 48px; }
+.contact-layout input, .contact-layout textarea { min-height: 52px; }
+.zoom-label { font-size: 1rem; opacity: 1; }
+.header nav, .header nav > a, .nav-dropdown summary { font-size: 1.125rem; }
+.nav-dropdown > div { width: 260px; }
+.nav-dropdown > div > a { min-height: 44px; }
+.topline, .topline span { font-size: .875rem; letter-spacing: .03em; }
+.topline .wrap { padding-block: 6px; }
+.mission-strip > .wrap { gap: 40px; }
+.mission-strip > .wrap > span, .mission-strip small { font-size: 1rem; letter-spacing: .02em; }
+.mission-strip > .wrap > span { padding-right: 30px; }
+.mission-strip p { font-size: 1.5rem; }
+.care-seal > span { font-size: .625rem; letter-spacing: .06em; }
+.care-seal strong { font-size: 1.5rem; }
+.footer-grid { grid-template-columns: 1.35fr .8fr 1.2fr; gap: 45px; }
+.footer-grid > div { min-width: 0; overflow-wrap: anywhere; }
+.footer-bottom { flex-wrap: wrap; }
+.footer-bottom > p { flex: 1 1 600px; }
+.archive-post { flex-wrap: wrap; }
+.archive-post > span:first-child { width: auto; flex-basis: 100%; }
+.archive-post strong { flex: 1 1 260px; }
+.archive-post time { margin-left: 0; }
+.blog-search { width: 270px; }
+.category-tabs { gap: 12px 24px; }
+.blog-toolbar { flex-wrap: wrap; }
+.donation-layout > div, .donation-methods > article > div { min-width: 0; }
+.donation-methods > article > div { overflow-wrap: anywhere; }
+.method-number { flex: none; }
+.hero-buttons, .participate .wrap > div:last-child { flex-wrap: wrap; }
+.hero-footnote { align-items: flex-start; }
+.hero-footnote .line { flex: none; margin-top: 14px; }
+.photo-label { top: 22px; right: 18px; bottom: auto; left: auto; background: #193f35ed; padding: 5px 12px; }
+@media (max-width: 1200px) {
+  .header nav {
+    display: none; position: absolute; top: 100%; left: 0; right: 0;
+    background: var(--paper); border-bottom: 1px solid var(--line);
+    padding: 18px 28px; box-shadow: 0 15px 20px #193f3510;
+    flex-direction: column; align-items: stretch; gap: 0;
+    max-height: calc(100dvh - 160px); overflow: auto;
+  }
+  .header nav.is-open { display: flex; }
+  .header nav > a, .nav-dropdown summary { padding: 12px 0; }
+  .nav-dropdown > div { position: static; width: 100%; box-shadow: none; border: 0; background: var(--sage); }
+  .menu-toggle { display: flex; align-items: center; gap: 8px; border: 0; background: none; margin-left: auto; font-size: 1.125rem; min-height: 48px; }
+  .menu-toggle > span:first-child { font-size: 24px; }
+  .header-actions { margin-left: 0; }
+  .search-label { display: inline; }
+  .header-actions .search-toggle { gap: 10px; font-size: 1.125rem; }
+  .blog-toolbar { flex-direction: column; align-items: stretch; }
+  .blog-search { width: 100%; }
+}
+@media (max-width: 700px) {
+  html { scroll-padding-top: 160px; }
+  .header-inner { display: grid; grid-template-columns: 1fr auto; height: auto; gap: 8px; padding-block: 10px; }
+  .brand, .brand img { width: 210px; height: auto; }
+  .header-actions { grid-column: 1 / -1; justify-content: space-between; gap: 12px; margin: 0; }
+  .search-label { display: inline; }
+  .header-actions .search-toggle { gap: 10px; padding: 8px 0; font-size: 1.125rem; }
+  .header-actions .button { font-size: 1.125rem; padding: 10px 16px; }
+  .header nav { top: 100%; padding-inline: 22px; }
+  .hero-buttons { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .hero-buttons .button { padding: 14px 20px; }
+  .mission-strip > .wrap { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .mission-strip > .wrap > span { border: 0; padding: 0; }
+  .mission-strip p { font-size: 1.25rem; }
+  .home-posts .post-card { display: block; }
+  .home-posts .post-image { aspect-ratio: 1.53; margin-bottom: 18px; }
+  .home-posts .post-meta { flex-direction: row; margin: 0 0 12px; }
+  .blog-posts, .ministry-grid, .branch-grid, .archive-grid, .content-gallery { grid-template-columns: 1fr; }
+  .ministry-card > div { aspect-ratio: 1.5; }
+  .ministry-card h2, .ministry-list h3, .event-card h3 { font-size: 1.625rem; }
+  .event-card { flex-direction: column; gap: 18px; }
+  .event-card > div { width: 200px; height: 274px; }
+  .event-card > section { padding-top: 0; }
+  .event-details > article { scroll-margin-top: 16px; }
+  .section-head h2 { font-size: 1.875rem; }
+  .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+  .footer-grid > div:first-child { grid-column: auto; }
+  .footer-brand { width: 250px; }
+  .footer-bottom { gap: 12px 25px; }
+  .participate .light-text { display: table; margin: 16px 0 0; }
+  .donation-methods > article { gap: 12px; }
+  .donation-layout { grid-template-columns: minmax(0, 1fr); }
+  .donation-email { overflow-wrap: anywhere; }
+  .form-grid { grid-template-columns: 1fr; }
+  .topline span { font-size: .75rem; }
+}
+@media (max-width: 370px) {
+  .brand, .brand img { width: 184px; }
+  .header-actions .button span { display: inline; }
+  .header nav { padding-inline: 16px; }
+}
 @media print {
+  .prose, .post-prose { max-width: none; }
   .page-heading h1 { font-size: 24px; }
 }
