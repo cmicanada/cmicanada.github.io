@@ -1,0 +1,72 @@
+/* Variable fonts are bundled locally; the Chinese family covers all site copy. */
+@font-face {
+  font-family: "CMI Manrope";
+  src: url("/assets/fonts/cmi-manrope.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CMI Noto Sans TC";
+  src: url("/assets/fonts/cmi-noto-sans-tc.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CMI Noto Sans SC";
+  src: url("/assets/fonts/cmi-noto-sans-sc.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body { font-weight: 400; }
+h1, h2, h3 { letter-spacing: -.025em; font-weight: 600; }
+.hero h1 { font-size: 64px; font-weight: 650; letter-spacing: -.035em; line-height: 1.38; }
+.hero-subtitle { font-weight: 400; letter-spacing: .015em; }
+.hero-period { font-weight: 400; }
+.eyebrow { font-weight: 650; letter-spacing: .15em; }
+.header nav { font-weight: 500; }
+.button, .text-link { font-weight: 600; }
+.mission-strip p { font-weight: 500; }
+.ministry-list h3, .event-card h3, .donation-methods h2 { font-weight: 600; }
+.care-seal strong { font-weight: 550; letter-spacing: .08em; }
+.sidebar-prayer p { font-weight: 500; }
+.prose { line-height: 2; }
+.prose h2, .page-heading h1 { font-weight: 650; }
+.page-heading h1 { line-height: 1.45; }
+.post-meta { font-weight: 450; }
+.post-card h3 { letter-spacing: -.015em; font-weight: 600; }
+
+/* Every placement uses the same self-contained, outlined bilingual wordmark. */
+.brand, .brand img { width: 210px; }
+.brand img { height: auto; }
+.footer-brand { width: 250px; }
+.footer-brand img { width: 100%; height: auto; }
+.header-actions .button { white-space: nowrap; flex-shrink: 0; }
+@media (min-width: 1400px) {
+  .hero h1 { font-size: 68px; }
+}
+@media (max-width: 1150px) {
+  .brand, .brand img { width: 174px; }
+  .hero h1 { font-size: 56px; }
+}
+@media (max-width: 1000px) {
+  .hero h1 { font-size: 47px; }
+}
+@media (max-width: 700px) {
+  .brand, .brand img { width: 145px; }
+  .hero h1 { font-size: 48px; }
+  .hero-subtitle { font-size: 14px; line-height: 2; }
+  .section-head h2 { font-size: 26px; }
+  .footer-brand { width: 235px; }
+}
+@media (max-width: 370px) {
+  .brand, .brand img { width: 128px; }
+  .header-actions .button span { display: none; }
+  .hero h1 { font-size: 43px; }
+}
+@media print {
+  .page-heading h1 { font-size: 24px; }
+}
