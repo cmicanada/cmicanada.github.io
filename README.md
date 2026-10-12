@@ -4,9 +4,10 @@ A complete static redesign of [cmicanada.org](https://www.cmicanada.org), replac
 
 ## Run and edit
 
-Requires Node.js 20 or later; no npm dependencies or framework installation.
+Requires Node.js 20 or later. OpenCC and parse5 are pinned build dependencies; the published site uses no framework or runtime translation service.
 
 ```sh
+npm ci
 npm run build
 npm run check
 npm run dev
@@ -16,12 +17,13 @@ Preview: http://localhost:4173. The development server binds to the local comput
 
 - `content/site.json` is the editable source: 41 captured public routes, 16 posts, original text, ordered rich-text blocks, image references, source URLs, and capture notes.
 - `content/deployment.json` sets the publishing origin for canonical URLs, social images, and the sitemap.
-- `scripts/build.mjs` generates all HTML pages at the repository root.
+- `content/locales/en.json` contains reviewed English translations keyed by Traditional Chinese source text. `scripts/locales.mjs` converts Chinese scripts, translates page text and interface messages, and fails the build for missing English translations.
+- `scripts/build.mjs` generates 126 HTML pages: Traditional Chinese at the root (the default), Simplified Chinese under `/zh-hans/`, and English under `/en/`, plus localized 404 pages and search indexes. All existing source routes remain available.
 - `assets/style.css`, `assets/typography.css`, and `assets/app.js` contain the design, typography, and browser interactions.
 - The header, footer, and browser icon use the original CMI Canada logo in `assets/images/df5eec_70c326b8c0f7445cbf4b20e06db868ac~mv2.jpeg`, with its original artwork and proportions. `assets/brand/` retains the earlier redesign proposal for reference; it is not used by the published site.
-- `assets/fonts/` bundles Manrope for Latin text, Noto Sans TC for Chinese, and a small Noto Sans SC companion subset for nine additional source characters, with their SIL Open Font Licenses and pinned source checksums. Fonts load locally without a third-party font service.
+- `assets/fonts/` bundles Manrope for Latin text, Noto Sans TC for Chinese, and a Noto Sans SC companion subset for additional Simplified Chinese characters, with their SIL Open Font Licenses and pinned source checksums. Fonts load locally without a third-party font service. Font, CSS and JavaScript URLs include content hashes to refresh cached assets after updates.
 - `assets/images/` contains all 83 original images and responsive WebP copies. Original report images remain available without resizing.
-- `scripts/validate.mjs` checks route coverage, original images, imported rich text, headings, local links, anchors, metadata, and search coverage.
+- `scripts/validate.mjs` checks all three languages for route coverage, same-page language switching, navigation, canonical and alternate-language metadata, search coverage, original images, imported rich text, headings, local links, and anchors.
 - `content/migration.md` records preservation coverage and source discrepancies.
 
 After changing content or templates, run `npm run build` and `npm run check`. CSS and JavaScript edits need a browser reload. To regenerate responsive images, install Pillow in a separate Python environment and run `python scripts/optimize-images.py`.
@@ -30,6 +32,7 @@ After introducing new Chinese characters, regenerate the font subset with `pytho
 
 ## Visitor experience
 
+- Visible 繁體 / 简体 / EN controls retain the current page, query and section when switching. Navigation, editable body text, article titles, dates, image descriptions, search, and form feedback follow the selected language. Internal links stay in that language; the root URL always defaults to Traditional Chinese. English pages retain Chinese personal names where verified English names are unavailable. Original report and poster images remain in their source language, with an English notice and full-size viewing.
 - Reading defaults designed for older church and ministry audiences: 20px main copy, 18px navigation and controls, 16px dates/contact details, generous line spacing, stronger text contrast, and single-column mobile articles. Sizes use `rem` to respect browser font preferences. On phones, the header uses two rows with visible search and menu labels and larger touch targets.
 - A mission-led homepage at `/` and `/home/`; all original updates are available at `/blog/`.
 - Seven ministry pages, the organization and Canada introductions, statement of faith, and international branches.
