@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+import {parse, serialize} from 'parse5';
+import {encodeEmail, protectEmails} from './email-protection.mjs';
+
+const context={window:{},TextDecoder,Uint8Array};
+vm.runInNewContext(readFileSync('assets/email.js','utf8'),context);
+const client=context.window.CMIEmail;
+const contact='cmicanada2012@gmail.com',donation='cmicanada.donation@gmail.com';
+for(const value of [contact,donation,'mailto:'+contact+'?subject=關懷 & support']) assert.equal(client.decode(encodeEmail(value)),value);
+for(const value of ['', 'xxyy', 'abc']) assert.throws(()=>client.decode(value));
+const doc=parse(`<p>Before <a href="mailto:${contact}?subject=Support">${contact}</a> and ${donation}. After.</p><button data-copy="${donation}">Copy</button>`);
+protectEmails(doc,'/en/contact/#email');
+const html=serialize(doc);
+assert.ok(!html.includes(contact)&&!html.includes(donation)&&!html.includes('href="mailto:'));
+assert.ok(html.includes('Before ')&&html.includes('. After.')&&html.includes('href="/en/contact/#email"'));
+function nodes(n){return [n,...(n.childNodes||[]).flatMap(nodes)];}
+const all=nodes(doc),attribute=(n,key)=>n.attrs?.find(a=>a.name===key)?.value;
+const spans=all.filter(n=>attribute(n,'data-email-text'));
+assert.equal(spans.length,2);
+assert.deepEqual(spans.map(n=>client.decode(attribute(n,'data-email-text'))),[contact,donation]);
+assert.equal(client.decode(attribute(all.find(n=>attribute(n,'data-email-href')),'data-email-href')),'mailto:'+contact+'?subject=Support');
+assert.equal(client.decode(attribute(all.find(n=>attribute(n,'data-email-copy')),'data-email-copy')),donation);
+const subject='Prayer & help?bcc=unintended@example.test';
+const data=new Map([['name','Test'],['email','tester@example.test'],['phone',''],['address',''],['subject',subject],['message','繁體 / 简体 / EN\nA & B']]);
+const draft=new URL(client.draftHref(contact,data));
+assert.equal(draft.protocol,'mailto:');assert.equal(draft.pathname,contact);
+assert.equal(draft.searchParams.get('subject'),subject);
+assert.equal(draft.searchParams.has('bcc'),false);
+assert.ok(draft.searchParams.get('body').includes('繁體 / 简体 / EN\nA & B'));
+console.log('PASS: email text/link/copy restoration, no-JS fallback, invalid encoding, and draft recipient/query safety.');

@@ -23,8 +23,14 @@ function nodes(doc){const result=[];function walk(n){result.push(n);for(const c 
 function fileFor(route,locale){return path.join('.'+localizedPath(route,locale.code),'index.html');}
 function checkFile(file,locale,route='/'){
  const html=readFileSync(file,'utf8');
+ if(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i.test(html)||/href="mailto:/i.test(html))fail(`Unprotected email in generated page: ${file}`);
  const socialImagePath=socialImagePaths[locale.code],{width:socialImageWidth,height:socialImageHeight}=socialImageSizes[locale.code];
  const all=nodes(parse(html));
+ const form=all.find(n=>attr(n,'id')==='contact-form');
+ if(form){
+  const submit=nodes(form).find(n=>n.tagName==='button'&&attr(n,'type')==='submit');
+  if(!attr(form,'data-email-recipient')||!submit?.attrs.some(a=>a.name==='disabled')||!nodes(form).some(n=>n.tagName==='noscript'))fail(`Unsafe no-JavaScript contact form: ${file}`);
+ }
  if(!all.some(n=>n.tagName==='link'&&attr(n,'rel')==='canonical'&&attr(n,'href')===origin+localizedPath(route,locale.code)))fail(`Wrong canonical: ${file}`);
  const meta=(key)=>attr(all.find(n=>n.tagName==='meta'&&(attr(n,'property')===key||attr(n,'name')===key)),'content');
  if(meta('og:image')!==origin+socialImagePath||meta('og:image:secure_url')!==meta('og:image')||meta('twitter:image')!==meta('og:image'))fail(`Wrong sharing image: ${file}`);
@@ -90,6 +96,7 @@ for(const locale of locales){
  checkFile(path.join('.'+locale.prefix,'404.html'),locale,'/404.html');
  const search=JSON.parse(readFileSync(`assets/search-index${locale.code==='zh-Hant'?'':'.'+locale.code}.json`,'utf8'));
  const searchable=site.pages.filter(p=>p.path!=='/'&&p.path!=='/home'&&!p.path.startsWith('/blog')&&p.path!=='/event-details/event-1');
+ if(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i.test(JSON.stringify(search)))fail(`Unprotected email in search index: ${locale.code}`);
  if(search.length!==searchable.length)fail(`Search coverage mismatch: ${locale.code}`);
  for(const p of site.pages){
   const entry=search.find(x=>x.path===localizedPath(p.path,locale.code));
@@ -102,5 +109,6 @@ if(!readFileSync('robots.txt','utf8').includes(`Sitemap: ${origin}/sitemap.xml`)
 for(const [,asset] of Object.entries(site.assets)){if(!existsSync('.'+asset))fail(`Missing captured asset ${asset}`);}
 assert.equal(site.pages.length,41);
 assert.equal(site.pages.filter(p=>p.path.startsWith('/post/')).length,16);
+for(const script of ['assets/email.js','assets/app.js']) if(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i.test(readFileSync(script,'utf8')))fail(`Plain email in browser script: ${script}`);
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
 console.log(`PASS: 126 localized pages, 3 localized 404s/search indexes, same-page language switches, canonical/hreflang links, 16 full reports, ${Object.keys(site.assets).length} originals, imported rich text, local references and anchors.`);

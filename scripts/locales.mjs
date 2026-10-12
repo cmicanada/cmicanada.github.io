@@ -1,3 +1,4 @@
+import { protectEmails } from './email-protection.mjs';
 import { readFileSync } from 'node:fs';
 import { parse, serialize, parseFragment } from 'parse5';
 import * as OpenCC from 'opencc-js';
@@ -62,7 +63,7 @@ const messages = {
  copyFallback:'請複製：',
  draftPrompt:'請在您的郵件程式中確認並寄出。若草稿未開啟，',
  draftLink:'點此開啟郵件草稿',
- draftSuffix:'，或直接電郵 cmicanada2012@gmail.com。',
+ draftSuffix:'，或直接電郵我們。',
 };
 const attr = (node,name) => node.attrs?.find(a=>a.name===name)?.value;
 function setAttr(node,name,value) {const a=node.attrs.find(a=>a.name===name);if(a)a.value=value;else node.attrs.push({name,value});}
@@ -105,6 +106,7 @@ export function localizeDocument(html, route, code, origin) {
  for(const n of parseFragment(alternates).childNodes){n.parentNode=head;head.childNodes.push(n);}
  const runtime={locale:code,searchUrl:`/assets/search-index${code==='zh-Hant'?'':'.'+code}.json`,messages:Object.fromEntries(Object.entries(messages).map(([k,v])=>[k,translate(v,code)]))};
  const config=parseFragment(`<script id="locale-messages" type="application/json">${JSON.stringify(runtime).replace(/</g,'\\u003c')}</script>`).childNodes[0];config.parentNode=body;body.childNodes.push(config);
+ protectEmails(doc, localizedPath('/contact',code)+'#email');
  return serialize(doc);
 }
 export function mainText(html) {

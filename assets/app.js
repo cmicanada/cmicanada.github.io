@@ -1,3 +1,5 @@
+CMIEmail.hydrate(document);
+document.querySelector('#contact-form button[type="submit"]')?.removeAttribute('disabled');
 const localeConfig = JSON.parse(document.querySelector('#locale-messages').textContent);
 const message = (key, values={}) => Object.entries(values).reduce((text,[name,value])=>text.replaceAll(`{${name}}`,String(value)),localeConfig.messages[key]);
 document.querySelectorAll('[data-locale-link]').forEach(link=>{
@@ -86,17 +88,18 @@ document.querySelector('.print-button')?.addEventListener('click', () => window.
 document.querySelector('.copy-email')?.addEventListener('click', async event => {
   const button = event.currentTarget;
   const status = document.querySelector('.copy-status');
-  try { await navigator.clipboard.writeText(button.dataset.copy); status.textContent = message('copied'); }
-  catch { status.textContent = message('copyFallback') + button.dataset.copy; }
+  try { await navigator.clipboard.writeText(CMIEmail.decode(button.dataset.emailCopy)); status.textContent = message('copied'); }
+  catch { status.textContent = message('copyFallback') + CMIEmail.decode(button.dataset.emailCopy); }
 });
 document.querySelector('#contact-form')?.addEventListener('submit', event => {
   event.preventDefault();
   const data = new FormData(event.currentTarget);
-  const body = `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nPhone: ${data.get('phone')}\nAddress: ${data.get('address')}\n\n${data.get('message')}`;
-  const href = `mailto:cmicanada2012@gmail.com?subject=${encodeURIComponent(data.get('subject'))}&body=${encodeURIComponent(body)}`;
+  const recipient = CMIEmail.decode(event.currentTarget.dataset.emailRecipient);
+  const href = CMIEmail.draftHref(recipient, data);
   const status = document.querySelector('#contact-status');
   status.replaceChildren(document.createTextNode(message('draftPrompt')));
   const retry = document.createElement('a'); retry.href = href; retry.textContent = message('draftLink');
-  status.append(retry, document.createTextNode(message('draftSuffix')));
+  const direct = document.createElement('a'); direct.href = `mailto:${recipient}`; direct.textContent = recipient;
+  status.append(retry, document.createTextNode(message('draftSuffix') + ' '), direct);
   window.location.href = href;
 });
