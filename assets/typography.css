@@ -8,14 +8,14 @@
 }
 @font-face {
   font-family: "CMI Noto Sans TC";
-  src: url("/assets/fonts/cmi-noto-sans-tc.woff2?v=2336418a51f7") format("woff2");
+  src: url("/assets/fonts/cmi-noto-sans-tc.woff2?v=c0f06447147a") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "CMI Noto Sans SC";
-  src: url("/assets/fonts/cmi-noto-sans-sc.woff2?v=c48f6e0a41e6") format("woff2");
+  src: url("/assets/fonts/cmi-noto-sans-sc.woff2?v=54ffbe0cf0e0") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -265,7 +265,7 @@ html[lang="en-CA"] .ministry-photo > span { flex-wrap: wrap; }
 .contact-layout #contact-status { margin: 0; overflow-wrap: anywhere; }
 .contact-layout #contact-status:empty { display: none; }
 .footer-grid > .footer-contact h3 { margin: 5px 0 8px; }
-.footer-grid > .footer-contact > a:not(.footer-brand) { display: flex; align-items: center; min-height: 44px; margin: 0; line-height: 1.5; }
+.footer-grid > .footer-contact > :is(a:not(.footer-brand), .email-reveal) { display: flex; align-items: center; min-height: 44px; margin: 0; line-height: 1.5; }
 .footer-grid > .footer-contact p { line-height: 1.6; margin: 4px 0 0; }
 @media (max-width: 960px) {
  .contact-layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
@@ -282,3 +282,8 @@ html[lang="en-CA"] .ministry-photo > span { flex-wrap: wrap; }
  .contact-layout .form-grid { grid-template-columns: minmax(0, 1fr); }
  .contact-layout .button { width: 100%; gap: 16px; }
 }
+
+/* Contact addresses are revealed only after an explicit visitor action. */
+[data-email-text][hidden], [data-email-href][hidden] { display: none !important; }
+.email-reveal { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; padding: 0; border: 0; background: transparent; color: var(--ink); font: inherit; line-height: 1.5; text-align: left; text-decoration: underline; text-underline-offset: 4px; }
+.email-reveal:hover { color: var(--orange); }
