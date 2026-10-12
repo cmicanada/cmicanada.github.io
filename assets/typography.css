@@ -39,17 +39,17 @@ h1, h2, h3 { letter-spacing: -.025em; font-weight: 600; }
 .post-meta { font-weight: 450; }
 .post-card h3 { letter-spacing: -.015em; font-weight: 600; }
 
-/* Every placement uses the same self-contained, outlined bilingual wordmark. */
-.brand, .brand img { width: 210px; }
+/* Retain the original CMI Canada artwork and its natural proportions. */
+.brand, .brand img { width: 250px; }
 .brand img { height: auto; }
-.footer-brand { width: 250px; }
+.footer-brand { width: 320px; max-width: 100%; }
 .footer-brand img { width: 100%; height: auto; }
 .header-actions .button { white-space: nowrap; flex-shrink: 0; }
 @media (min-width: 1400px) {
   .hero h1 { font-size: 68px; }
 }
 @media (max-width: 1150px) {
-  .brand, .brand img { width: 174px; }
+  .brand, .brand img { width: 250px; }
   .hero h1 { font-size: 56px; }
 }
 @media (max-width: 1000px) {
@@ -193,7 +193,7 @@ body { font-size: 1.25rem; line-height: 1.85; }
   .section-head h2 { font-size: 1.875rem; }
   .footer-grid { grid-template-columns: 1fr; gap: 30px; }
   .footer-grid > div:first-child { grid-column: auto; }
-  .footer-brand { width: 250px; }
+  .footer-brand { width: 320px; }
   .footer-bottom { gap: 12px 25px; }
   .participate .light-text { display: table; margin: 16px 0 0; }
   .donation-methods > article { gap: 12px; }

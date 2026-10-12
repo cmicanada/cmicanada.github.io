@@ -18,7 +18,7 @@ Preview: http://localhost:4173. The development server binds to the local comput
 - `content/deployment.json` sets the publishing origin for canonical URLs, social images, and the sitemap.
 - `scripts/build.mjs` generates all HTML pages at the repository root.
 - `assets/style.css`, `assets/typography.css`, and `assets/app.js` contain the design, typography, and browser interactions.
-- `assets/brand/` contains the new outlined bilingual logo, light version, standalone emblem, and favicon. The cross, open hands, and maple leaf express Christian care and the Canadian sending base.
+- The header, footer, and browser icon use the original CMI Canada logo in `assets/images/df5eec_70c326b8c0f7445cbf4b20e06db868ac~mv2.jpeg`, with its original artwork and proportions. `assets/brand/` retains the earlier redesign proposal for reference; it is not used by the published site.
 - `assets/fonts/` bundles Manrope for Latin text, Noto Sans TC for Chinese, and a small Noto Sans SC companion subset for nine additional source characters, with their SIL Open Font Licenses and pinned source checksums. Fonts load locally without a third-party font service.
 - `assets/images/` contains all 83 original images and responsive WebP copies. Original report images remain available without resizing.
 - `scripts/validate.mjs` checks route coverage, original images, imported rich text, headings, local links, anchors, metadata, and search coverage.
@@ -26,7 +26,7 @@ Preview: http://localhost:4173. The development server binds to the local comput
 
 After changing content or templates, run `npm run build` and `npm run check`. CSS and JavaScript edits need a browser reload. To regenerate responsive images, install Pillow in a separate Python environment and run `python scripts/optimize-images.py`.
 
-After introducing new Chinese characters, regenerate the font subset with `python scripts/prepare-brand.py` in a separate Python environment containing `fonttools[woff]`. The script downloads checksum-verified font sources to the ignored `.preview/font-sources/` directory, retains variable weights, and regenerates the SVG lettering as paths. Existing site copy is fully covered; system fonts support new visitor-entered characters. The original imported Wix logo remains in `assets/images/` as part of the preserved source media.
+After introducing new Chinese characters, regenerate the font subset with `python scripts/prepare-brand.py` in a separate Python environment containing `fonttools[woff]`. The script downloads checksum-verified font sources to the ignored `.preview/font-sources/` directory, retains variable weights, and regenerates the unused earlier SVG proposal. Existing site copy is fully covered; system fonts support new visitor-entered characters. The active logo uses the original imported Wix artwork.
 
 ## Visitor experience
 
