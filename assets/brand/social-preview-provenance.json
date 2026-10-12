@@ -1,11 +1,11 @@
 {
   "tool": "image_gen.imagegen (built-in)",
-  "file": "/assets/brand/cmi-social-preview-v2.png",
+  "file": "/assets/brand/cmi-social-preview-v3.png",
   "width": 1733,
-  "height": 907,
-  "reference": "/assets/brand/cmi-logo-refined-v1.png",
+  "height": 908,
+  "reference": "/assets/brand/cmi-logo-refined-v2.png",
   "purpose": "Dedicated site-wide social sharing card; original sunset image remains preserved.",
-  "design": "Traditional Chinese mission headline, approved logo reference, ivory/forest-green/copper palette, illustrative globe and cross. No documentary ministry photo. Version 2 highlights only 出 / out in warm copper, keeping 進 / 进 / into forest green.",
+  "design": "Traditional Chinese mission headline, approved logo reference, ivory/forest-green/copper palette, illustrative globe and cross. No documentary ministry photo. Version 2 highlights only 出 / out in warm copper, keeping 進 / 进 / into forest green. Version 3 uses the larger vertically centered bilingual wordmark beside the faithful emblem.",
   "text": [
     "福音進中華",
     "福音出中華",
@@ -15,19 +15,19 @@
   "localeVariants": [
     {
       "locale": "zh-Hant",
-      "file": "/assets/brand/cmi-social-preview-v2.png",
+      "file": "/assets/brand/cmi-social-preview-v3.png",
       "width": 1733,
-      "height": 907
+      "height": 908
     },
     {
       "locale": "zh-Hans",
-      "file": "/assets/brand/cmi-social-preview-zh-hans-v2.png",
+      "file": "/assets/brand/cmi-social-preview-zh-hans-v3.png",
       "width": 1733,
       "height": 907
     },
     {
       "locale": "en",
-      "file": "/assets/brand/cmi-social-preview-en-v2.png",
+      "file": "/assets/brand/cmi-social-preview-en-v3.png",
       "width": 1733,
       "height": 907
     }
@@ -50,12 +50,31 @@
       "file": "/assets/brand/cmi-social-preview-en-v1.png",
       "width": 1733,
       "height": 907
+    },
+    {
+      "locale": "zh-Hant",
+      "file": "/assets/brand/cmi-social-preview-v2.png",
+      "width": 1733,
+      "height": 907
+    },
+    {
+      "locale": "zh-Hans",
+      "file": "/assets/brand/cmi-social-preview-zh-hans-v2.png",
+      "width": 1733,
+      "height": 907
+    },
+    {
+      "locale": "en",
+      "file": "/assets/brand/cmi-social-preview-en-v2.png",
+      "width": 1733,
+      "height": 907
     }
   ],
   "editReferences": [
-    "/assets/brand/cmi-social-preview-v1.png",
-    "/assets/brand/cmi-social-preview-zh-hans-v1.png",
-    "/assets/brand/cmi-social-preview-en-v1.png"
+    "/assets/brand/cmi-social-preview-v2.png",
+    "/assets/brand/cmi-social-preview-zh-hans-v2.png",
+    "/assets/brand/cmi-social-preview-en-v2.png",
+    "/assets/brand/cmi-logo-refined-v2.png"
   ],
-  "editPrompt": "Change only 出 in the second Chinese mission headline, or out in the second English headline, to warm copper #b8693b. Preserve all other text, forest-green first headline, typography, logo, URL, layout, ivory background and globe/cross illustration."
+  "editPrompt": "Use case: compositing / precise-object-edit. Image 1 is the edit target: current CMI Canada sharing card. Image 2 is the exact approved updated logo to insert. Replace ONLY the brand logo at the top-left of image 1 with image 2, retaining its enlarged Chinese and English names and vertically centered two-line wordmark beside the smaller familiar emblem. Fit the entire new logo into the same top brand area approximately x80 to x1030 and y45 to y315, with Chinese and English text now higher, bigger, and vertically centered against the emblem. Exact logo text remains 加拿大國際關懷協會 and Care Ministries International Canada. Do not copy the previous small bottom-aligned wordmark. Keep all other content and layout exactly unchanged: the two mission headlines including copper 出 or out and forest-green 進/进/into, complete localized subtitle and URL, ivory background, right green globe/cross illustration and copper curves. Preserve all wording verbatim and every letter and Chinese glyph. Opaque high-resolution PNG approximately 1.91:1, at least 1732px wide. No new text, no clipping, no changes to headline typography or spacing."
 }
