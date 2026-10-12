@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add CMI News"
+  short_description: "Add multilingual CMI news and prayer updates"
+  default_prompt: "Use $cmi-add-news to add the supplied news update to the CMI Canada website in Traditional Chinese, Simplified Chinese, and English."
