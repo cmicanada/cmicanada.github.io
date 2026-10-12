@@ -39,7 +39,7 @@ h1, h2, h3 { letter-spacing: -.025em; font-weight: 600; }
 .post-meta { font-weight: 450; }
 .post-card h3 { letter-spacing: -.015em; font-weight: 600; }
 
-/* Retain the original CMI Canada artwork and its natural proportions. */
+/* Faithful high-resolution redraw retains the original logo proportions. */
 .brand, .brand img { width: 250px; }
 .brand img { height: auto; }
 .footer-brand { width: 320px; max-width: 100%; }
