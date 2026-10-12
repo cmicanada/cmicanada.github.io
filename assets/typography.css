@@ -212,22 +212,28 @@ body { font-size: 1.25rem; line-height: 1.85; }
   .page-heading h1 { font-size: 24px; }
 }
 
-/* Language choices remain visible and comfortably sized in every locale. */
-.locale-bar { display: flex; justify-content: flex-end; padding-block: 6px; border-top: 1px solid var(--line); }
-.locale-switcher { display: flex; flex-wrap: wrap; gap: 8px; }
-.locale-switcher a { display: inline-flex; align-items: center; justify-content: center; min-width: 64px; min-height: 44px; padding: 6px 12px; border: 1px solid var(--line); font-size: 1.125rem; line-height: 1.5; color: var(--ink); }
-.locale-switcher a:hover { border-color: var(--ink); }
-.locale-switcher a[aria-current] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-html { scroll-padding-top: 175px; }
+/* Language choices share the green utility bar, with large click targets. */
+.topline .wrap { gap: 20px; min-height: 44px; padding-block: 0; }
+.topline-tagline { margin-left: auto; }
+.locale-switcher { display: flex; flex: none; gap: 4px; }
+.topline .locale-switcher a { display: inline-flex; align-items: center; justify-content: center; min-width: 64px; min-height: 44px; padding: 6px 12px; font-size: 1.125rem; line-height: 1.5; letter-spacing: 0; color: #e2e7dd; }
+.topline .locale-switcher a:hover { background: #ffffff18; color: #fff; }
+.topline .locale-switcher a[aria-current] { color: #fff; background: #ffffff12; box-shadow: inset 0 -3px 0 #e7ccb4; }
+.topline .locale-switcher a:focus-visible { outline-color: #fff; outline-offset: -3px; }
+@media (max-width: 1000px) {
+ .topline-tagline { display: none; }
+ .locale-switcher { margin-left: auto; }
+}
+@media (max-width: 700px) {
+ .topline-name { display: none; }
+ .topline .wrap { justify-content: flex-end; }
+}
 .source-language-note { font-size: 1rem; color: var(--muted); padding-block: 20px; margin-block: 0; }
 html[lang="en-CA"] .hero h1 { white-space: normal; font-size: clamp(2.25rem, 3.5vw, 3.125rem); line-height: 1.4; letter-spacing: -.025em; }
 html[lang="en-CA"] .care-seal strong { font-size: 1.25rem; letter-spacing: .02em; text-align: center; }
 html[lang="en-CA"] .ministry-photo > span { flex-wrap: wrap; }
-@media (max-width: 1200px) { .header nav { max-height: calc(100dvh - 230px); } }
 @media (max-width: 700px) {
- html { scroll-padding-top: 225px; }
- .locale-bar { justify-content: center; }
- .header nav { max-height: calc(100dvh - 245px); }
+ .header nav { max-height: calc(100dvh - 180px); }
  html[lang="en-CA"] .hero h1 { font-size: 2.375rem; }
 }
-@media print { .locale-bar, .source-language-note { display: none; } }
+@media print { .topline, .source-language-note { display: none; } }
