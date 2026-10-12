@@ -1,7 +1,6 @@
-CMIEmail.hydrate(document);
-document.querySelector('#contact-form button[type="submit"]')?.removeAttribute('disabled');
 const localeConfig = JSON.parse(document.querySelector('#locale-messages').textContent);
 const message = (key, values={}) => Object.entries(values).reduce((text,[name,value])=>text.replaceAll(`{${name}}`,String(value)),localeConfig.messages[key]);
+CMIEmail.hydrate(document, message('revealEmail'));
 document.querySelectorAll('[data-locale-link]').forEach(link=>{
   const base = link.getAttribute('href');
   const update = () => { link.href = base + window.location.search + window.location.hash; };
@@ -103,3 +102,4 @@ document.querySelector('#contact-form')?.addEventListener('submit', event => {
   status.append(retry, document.createTextNode(message('draftSuffix') + ' '), direct);
   window.location.href = href;
 });
+document.querySelector('#contact-form button[type="submit"]')?.removeAttribute('disabled');

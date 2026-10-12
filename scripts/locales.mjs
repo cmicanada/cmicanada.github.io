@@ -59,6 +59,7 @@ const messages = {
  searchUnavailable:'暫時無法搜尋，請前往「內容總覽」瀏覽所有內容。',
  articleCount:'{count} 篇文章',
  articleCountOne:'1 篇文章',
+ revealEmail:'顯示電子郵件',
  copied:'已複製奉獻郵箱。',
  copyFallback:'請複製：',
  draftPrompt:'請在您的郵件程式中確認並寄出。若草稿未開啟，',
