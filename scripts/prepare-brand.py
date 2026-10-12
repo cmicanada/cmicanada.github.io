@@ -1,6 +1,6 @@
 """Prepare vector identity and locally served fonts. Requires fonttools[woff]."""
 from pathlib import Path
-import argparse, hashlib, html, json, urllib.request
+import argparse, hashlib, html, json, re, urllib.request
 from fontTools.ttLib import TTFont
 from fontTools import subset
 from fontTools.varLib.instancer import instantiateVariableFont
@@ -46,6 +46,14 @@ for name, output in [('NotoSansTC', 'cmi-noto-sans-tc.woff2'), ('NotoSansSC', 'c
     font.flavor = 'woff2'
     font.save(ROOT / 'assets/fonts' / output)
     print(output, (ROOT / 'assets/fonts' / output).stat().st_size, 'bytes')
+
+# Refresh font URLs as well as CSS URLs when the character coverage changes.
+stylesheet = ROOT / 'assets/typography.css'
+css = stylesheet.read_text()
+for output in ['cmi-noto-sans-tc.woff2', 'cmi-noto-sans-sc.woff2', 'cmi-manrope.woff2']:
+    version = hashlib.sha256((ROOT / 'assets/fonts' / output).read_bytes()).hexdigest()[:12]
+    css = re.sub(r'/assets/fonts/' + re.escape(output) + r'(?:\?v=[a-f0-9]+)?', '/assets/fonts/' + output + '?v=' + version, css)
+stylesheet.write_text(css)
 
 manrope = instantiateVariableFont(TTFont(args.source_dir / 'Manrope.ttf'), {'wght': 750})
 canada = instantiateVariableFont(TTFont(args.source_dir / 'Manrope.ttf'), {'wght': 550})

@@ -1,21 +1,21 @@
 /* Variable fonts are bundled locally; the Chinese family covers all site copy. */
 @font-face {
   font-family: "CMI Manrope";
-  src: url("/assets/fonts/cmi-manrope.woff2") format("woff2");
+  src: url("/assets/fonts/cmi-manrope.woff2?v=30b83738add8") format("woff2");
   font-weight: 200 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "CMI Noto Sans TC";
-  src: url("/assets/fonts/cmi-noto-sans-tc.woff2") format("woff2");
+  src: url("/assets/fonts/cmi-noto-sans-tc.woff2?v=2336418a51f7") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "CMI Noto Sans SC";
-  src: url("/assets/fonts/cmi-noto-sans-sc.woff2") format("woff2");
+  src: url("/assets/fonts/cmi-noto-sans-sc.woff2?v=c48f6e0a41e6") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -211,3 +211,23 @@ body { font-size: 1.25rem; line-height: 1.85; }
   .prose, .post-prose { max-width: none; }
   .page-heading h1 { font-size: 24px; }
 }
+
+/* Language choices remain visible and comfortably sized in every locale. */
+.locale-bar { display: flex; justify-content: flex-end; padding-block: 6px; border-top: 1px solid var(--line); }
+.locale-switcher { display: flex; flex-wrap: wrap; gap: 8px; }
+.locale-switcher a { display: inline-flex; align-items: center; justify-content: center; min-width: 64px; min-height: 44px; padding: 6px 12px; border: 1px solid var(--line); font-size: 1.125rem; line-height: 1.5; color: var(--ink); }
+.locale-switcher a:hover { border-color: var(--ink); }
+.locale-switcher a[aria-current] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+html { scroll-padding-top: 175px; }
+.source-language-note { font-size: 1rem; color: var(--muted); padding-block: 20px; margin-block: 0; }
+html[lang="en-CA"] .hero h1 { white-space: normal; font-size: clamp(2.25rem, 3.5vw, 3.125rem); line-height: 1.4; letter-spacing: -.025em; }
+html[lang="en-CA"] .care-seal strong { font-size: 1.25rem; letter-spacing: .02em; text-align: center; }
+html[lang="en-CA"] .ministry-photo > span { flex-wrap: wrap; }
+@media (max-width: 1200px) { .header nav { max-height: calc(100dvh - 230px); } }
+@media (max-width: 700px) {
+ html { scroll-padding-top: 225px; }
+ .locale-bar { justify-content: center; }
+ .header nav { max-height: calc(100dvh - 245px); }
+ html[lang="en-CA"] .hero h1 { font-size: 2.375rem; }
+}
+@media print { .locale-bar, .source-language-note { display: none; } }

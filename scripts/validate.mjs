@@ -1,21 +1,37 @@
-import { readFileSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import { parse } from 'parse5';
+import { locales, localizedPath, traditional, translate } from './locales.mjs';
 const site=JSON.parse(readFileSync('content/site.json','utf8'));
 const origin=JSON.parse(readFileSync('content/deployment.json','utf8')).origin;
 const root=process.cwd();
 const errors=[];
 const fail=message=>errors.push(message);
-const decode=text=>text.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
-const normalize=text=>decode(text.replace(/<[^>]*>/g,'')).replace(/[\s\u200b\x00]/g,'');
-function fileFor(route){return route==='/'?'index.html':path.join(route.slice(1),'index.html');}
-function checkFile(file){
+const decode=text=>text.replace(/&amp;/g,'&').replace(/&nbsp;/g,' ').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+const normalize=text=>traditional(decode(text.replace(/<[^>]*>/g,''))).replace(/[\s\u200b\x00]/g,'');
+const attr=(node,name)=>node.attrs?.find(a=>a.name===name)?.value;
+function nodes(doc){const result=[];function walk(n){result.push(n);for(const c of n.childNodes||[])walk(c);}walk(doc);return result;}
+function fileFor(route,locale){return path.join('.'+localizedPath(route,locale.code),'index.html');}
+function checkFile(file,locale,route='/'){
  const html=readFileSync(file,'utf8');
- if(!html.includes(`<link rel="canonical" href="${origin}/`))fail(`Wrong deployment origin: ${file}`);
+ const all=nodes(parse(html));
+ if(!all.some(n=>n.tagName==='link'&&attr(n,'rel')==='canonical'&&attr(n,'href')===origin+localizedPath(route,locale.code)))fail(`Wrong canonical: ${file}`);
  if(!html.includes(`<meta property="og:image" content="${origin}/`))fail(`Wrong social image origin: ${file}`);
- if(!html.includes('<html lang="zh-Hant-CA">'))fail(`Language missing: ${file}`);
+ if(!all.some(n=>n.tagName==='html'&&attr(n,'lang')===locale.lang))fail(`Wrong language: ${file}`);
  if((html.match(/<h1[ >]/g)||[]).length!==1)fail(`Expected one main heading: ${file}`);
  if(/Hydra|sales CRM|CloudCannon|Global Corp/.test(html))fail(`Old template text: ${file}`);
+ const switches=all.filter(n=>attr(n,'data-locale-link'));
+ if(switches.length!==3)fail(`Expected three language choices: ${file}`);
+ for(const choice of locales){
+  const link=switches.find(n=>attr(n,'data-locale-link')===choice.code);
+  if(!link||attr(link,'href')!==localizedPath(route,choice.code)||(attr(link,'aria-current')==='page')!==(choice.code===locale.code))fail(`Language switch loses current page: ${file}, ${choice.code}`);
+  if(!all.some(n=>attr(n,'rel')==='alternate'&&attr(n,'hreflang')===choice.lang&&attr(n,'href')===origin+localizedPath(route,choice.code)))fail(`Missing language alternate: ${file}, ${choice.code}`);
+ }
+ const configNode=all.find(n=>attr(n,'id')==='locale-messages');
+ const config=JSON.parse(configNode?.childNodes?.[0]?.value||'{}');
+ const expectedIndex=`/assets/search-index${locale.code==='zh-Hant'?'':'.'+locale.code}.json`;
+ if(config.locale!==locale.code||config.searchUrl!==expectedIndex||!config.messages?.searchCount?.includes('{count}'))fail(`Invalid runtime locale: ${file}`);
  for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){
   const link=decode(match[1]);
   if(!link.startsWith('/')||link.startsWith('//'))continue;
@@ -27,36 +43,50 @@ function checkFile(file){
    const target=readFileSync(local,'utf8');
    if(!target.includes(`id="${hash}"`))fail(`Missing anchor ${link} in ${file}`);
   }
+  if(locale.prefix&&local.endsWith('index.html')&&!switches.some(n=>attr(n,'href')===link)&&!clean.startsWith(locale.prefix+'/'))fail(`Navigation leaves selected language: ${link} in ${file}`);
  }
  return html;
 }
 for(const p of site.pages){
- const file=fileFor(p.path);
- if(!existsSync(file)){fail(`Missing source route ${p.path}`);continue;}
- const html=checkFile(file);
  if(!p.sourceText&&p.images.length===0)fail(`Empty capture ${p.path}`);
  for(const i of p.images){
   if(!existsSync('.'+i.src))fail(`Missing original image ${i.src}`);
   if(!existsSync('.'+i.src.replace(/\.(jpe?g|png)$/i,'-960.webp')))fail(`Missing responsive image ${i.src}`);
  }
- // All substantive imported rich text must be present on its ministry/about page.
- if(!['/','/home','/programs','/about','/donate','/contact','/cmi各地分会'].includes(p.path)&&!p.path.startsWith('/blog')&&!p.path.startsWith('/event-details/')&&!p.path.startsWith('/post/')){
-  for(const block of p.blocks){const text=normalize(block);if(text&&!normalize(html).includes(text))fail(`Missing imported text on ${p.path}: ${text.slice(0,45)}`);}
+ for(const locale of locales){
+  const file=fileFor(p.path,locale);
+  if(!existsSync(file)){fail(`Missing translated route ${locale.code}: ${p.path}`);continue;}
+  const html=checkFile(file,locale,p.path);
+  // Compare traditionalized copy to allow script conversion without losing imported rich text.
+  if(locale.code==='zh-Hant'&&!['/','/home','/programs','/about','/donate','/contact','/cmi各地分会'].includes(p.path)&&!p.path.startsWith('/blog')&&!p.path.startsWith('/event-details/')&&!p.path.startsWith('/post/')){
+   for(const block of p.blocks){const text=normalize(block);if(text&&!normalize(html).includes(text))fail(`Missing imported text on ${p.path}: ${text.slice(0,45)}`);}
+  }
+  if(p.path.startsWith('/post/')){
+   if(!html.includes(translate(p.title,locale.code)))fail(`Post title missing ${locale.code}: ${p.path}`);
+   for(const i of p.images){if(!html.includes(i.src))fail(`Report page missing original image ${i.src}`);}
+   if(!html.includes(translate(p.author,locale.code))||!html.includes(p.published))fail(`Post metadata missing ${locale.code}: ${p.path}`);
+   if(locale.code==='en'&&!html.includes('Reports and posters below are preserved in their original language.'))fail(`Missing original-language image notice: ${p.path}`);
+  }
+  if(p.path==='/event-details/event-1'&&!html.includes('name="robots" content="noindex"'))fail(`Placeholder event should not be indexed: ${locale.code}`);
  }
- if(p.path.startsWith('/post/')){
-  if(!html.includes(p.title))fail(`Post title missing ${p.path}`);
-  for(const i of p.images){if(!html.includes(i.src))fail(`Report page missing original image ${i.src}`);}
-  if(!html.includes(p.author)||!html.includes(p.published))fail(`Post metadata missing ${p.path}`);
- }
- if(p.path==='/event-details/event-1'&&!html.includes('name="robots" content="noindex"'))fail('Placeholder event should not be indexed');
 }
-checkFile('content-archive/index.html');checkFile('404.html');
-const search=JSON.parse(readFileSync('assets/search-index.json','utf8'));
-if(readFileSync('sitemap.xml','utf8').includes('https://www.cmicanada.org'))fail('Sitemap points to the original Wix site');
+const sitemap=readFileSync('sitemap.xml','utf8');
+for(const locale of locales){
+ checkFile(fileFor('/content-archive',locale),locale,'/content-archive');
+ checkFile(path.join('.'+locale.prefix,'404.html'),locale,'/404.html');
+ const search=JSON.parse(readFileSync(`assets/search-index${locale.code==='zh-Hant'?'':'.'+locale.code}.json`,'utf8'));
+ const searchable=site.pages.filter(p=>p.path!=='/'&&p.path!=='/home'&&!p.path.startsWith('/blog')&&p.path!=='/event-details/event-1');
+ if(search.length!==searchable.length)fail(`Search coverage mismatch: ${locale.code}`);
+ for(const p of site.pages){
+  const entry=search.find(x=>x.path===localizedPath(p.path,locale.code));
+  if(searchable.includes(p)&&(!entry||!entry.text))fail(`Page missing from localized search ${locale.code}: ${p.path}`);
+  if(p.path!=='/event-details/event-1'&&!sitemap.includes(origin+localizedPath(p.path,locale.code)))fail(`Page missing from sitemap ${locale.code}: ${p.path}`);
+ }
+}
+if(sitemap.includes('https://www.cmicanada.org'))fail('Sitemap points to the original Wix site');
 if(!readFileSync('robots.txt','utf8').includes(`Sitemap: ${origin}/sitemap.xml`))fail('Robots sitemap has wrong origin');
-for(const p of site.pages.filter(p=>p.path.startsWith('/post/'))){if(!search.some(x=>x.path===p.path))fail(`Post missing from search ${p.path}`);}
 for(const [,asset] of Object.entries(site.assets)){if(!existsSync('.'+asset))fail(`Missing captured asset ${asset}`);}
 assert.equal(site.pages.length,41);
 assert.equal(site.pages.filter(p=>p.path.startsWith('/post/')).length,16);
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
-console.log(`PASS: ${site.pages.length} source routes, 16 full reports, ${Object.keys(site.assets).length} originals, local references, anchors, imported rich text, metadata, and search coverage.`);
+console.log(`PASS: 126 localized pages, 3 localized 404s/search indexes, same-page language switches, canonical/hreflang links, 16 full reports, ${Object.keys(site.assets).length} originals, imported rich text, local references and anchors.`);
