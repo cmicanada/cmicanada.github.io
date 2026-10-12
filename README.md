@@ -17,12 +17,16 @@ Preview: http://localhost:4173. The development server binds to the local comput
 - `content/site.json` is the editable source: 41 captured public routes, 16 posts, original text, ordered rich-text blocks, image references, source URLs, and capture notes.
 - `content/deployment.json` sets the publishing origin for canonical URLs, social images, and the sitemap.
 - `scripts/build.mjs` generates all HTML pages at the repository root.
-- `assets/style.css` and `assets/app.js` contain the design and browser interactions.
+- `assets/style.css`, `assets/typography.css`, and `assets/app.js` contain the design, typography, and browser interactions.
+- `assets/brand/` contains the new outlined bilingual logo, light version, standalone emblem, and favicon. The cross, open hands, and maple leaf express Christian care and the Canadian sending base.
+- `assets/fonts/` bundles Manrope for Latin text, Noto Sans TC for Chinese, and a small Noto Sans SC companion subset for nine additional source characters, with their SIL Open Font Licenses and pinned source checksums. Fonts load locally without a third-party font service.
 - `assets/images/` contains all 83 original images and responsive WebP copies. Original report images remain available without resizing.
 - `scripts/validate.mjs` checks route coverage, original images, imported rich text, headings, local links, anchors, metadata, and search coverage.
 - `content/migration.md` records preservation coverage and source discrepancies.
 
 After changing content or templates, run `npm run build` and `npm run check`. CSS and JavaScript edits need a browser reload. To regenerate responsive images, install Pillow in a separate Python environment and run `python scripts/optimize-images.py`.
+
+After introducing new Chinese characters, regenerate the font subset with `python scripts/prepare-brand.py` in a separate Python environment containing `fonttools[woff]`. The script downloads checksum-verified font sources to the ignored `.preview/font-sources/` directory, retains variable weights, and regenerates the SVG lettering as paths. Existing site copy is fully covered; system fonts support new visitor-entered characters. The original imported Wix logo remains in `assets/images/` as part of the preserved source media.
 
 ## Visitor experience
 
