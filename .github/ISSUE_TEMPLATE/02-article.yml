@@ -1,0 +1,112 @@
+name: 文章／見證／事工報告
+description: 提交完整文章、見證、宣教反思或事工報告。
+title: '[文章] '
+labels:
+- 內容：文章
+- 內容：待處理
+body:
+- type: markdown
+  attributes:
+    value: 請提供繁體中文原稿與原始附件；網站預設繁體，並提供簡體與英文版本。此 Issue 為公開內容，請只附可公開的資料。提交後由維護者或 Codex 處理，不會自動發布。
+- type: dropdown
+  id: operation
+  attributes:
+    label: 處理方式
+    options:
+    - 新增內容
+    - 更新現有內容
+  validations:
+    required: true
+- type: input
+  id: existing-page
+  attributes:
+    label: 現有頁面網址
+    description: 更新時請填寫；新增內容可留空。
+  validations:
+    required: false
+- type: input
+  id: content-title
+  attributes:
+    label: 內容標題
+    description: 請填寫要顯示在網站上的完整標題。
+  validations:
+    required: true
+- type: input
+  id: publication-date
+  attributes:
+    label: 刊登日期
+    description: 例如 2026-10-15（多倫多日期）；未確認可填「待確認」。
+  validations:
+    required: true
+- type: input
+  id: attribution
+  attributes:
+    label: 作者／提供單位
+    description: 請填正式署名；如不署名請註明。
+  validations:
+    required: true
+- type: input
+  id: category
+  attributes:
+    label: 文章類別
+    description: 例如「見證分享」或「會長事工報告」；不確定可填「請協助分類」。
+  validations:
+    required: true
+- type: textarea
+  id: body
+  attributes:
+    label: 繁體中文全文
+    description: 保留全部段落、標題、引文與圖片位置。也可註明「全文見附件」並附原檔。
+  validations:
+    required: true
+- type: dropdown
+  id: editing
+  attributes:
+    label: 編輯範圍
+    options:
+    - 忠實保留原稿，只整理格式與翻譯
+    - 可潤飾文字，但保留完整內容
+    - 請依其他說明中的範圍改寫
+  validations:
+    required: true
+- type: textarea
+  id: sources
+  attributes:
+    label: 原始資料、圖片與附件
+    description: 可拖曳圖片、PDF 或文件到此欄，或貼上來源連結。請標明圖片順序、說明及出處；若全文在附件中，請在內文欄註明。
+  validations:
+    required: false
+- type: dropdown
+  id: languages
+  attributes:
+    label: 語言資料
+    options:
+    - 只有繁體原稿，請協助產生簡體與英文
+    - 已附繁體與英文，請產生簡體並校對
+    - 已附繁體、簡體與英文，請校對
+  validations:
+    required: true
+- type: textarea
+  id: translations
+  attributes:
+    label: 已有翻譯與專有名稱
+    description: 選填：附上簡體／英文翻譯、正式英文人名、機構名稱或指定用語。沒有官方英文名稱時請保留原名。
+  validations:
+    required: false
+- type: dropdown
+  id: delivery
+  attributes:
+    label: 交付方式
+    description: 此欄表達處理期望；實際發布依當次任務授權執行。未來日期只是期望日期，尚未設置排程功能。
+    options:
+    - 先提供草稿／PR，確認後再發布
+    - 完成三語校對與檢查後發布
+  validations:
+    required: true
+- type: textarea
+  id: notes
+  attributes:
+    label: 其他說明
+    description: 選填：期望發布日期、指定網址、圖片位置、修訂重點或其他需求。
+  validations:
+    required: false

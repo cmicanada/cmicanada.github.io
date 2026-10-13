@@ -2,6 +2,10 @@
 
 A complete static redesign of [cmicanada.org](https://www.cmicanada.org), replacing the obsolete Hydra/Jekyll sales template. Chinese-first editorial layouts, warm ivory and forest green, original ministry photography, accessible navigation, responsive galleries, and full-size report reading.
 
+## 提交新內容
+
+在[GitHub 新增 Issue](https://github.com/cmicanada/cmicanada.github.io/issues/new/choose) 選擇「最新消息／代禱更新」、「文章／見證／事工報告」或「活動／工作坊／分享會」，填入繁體原稿與附件，再把 Issue 編號交給 Codex。三個倉庫技能會處理繁體、簡體與英文版本；Issue 提交本身不會自動發布。完整流程見 [內容 Issue 使用說明](docs/content-issues.md)。
+
 ## Run and edit
 
 Requires Node.js 20 or later. OpenCC and parse5 are pinned build dependencies; the published site uses no framework or runtime translation service.
