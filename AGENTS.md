@@ -14,6 +14,10 @@ Before adding or editing content, read the appropriate committed skill:
 
 These repository copies are authoritative for this project, including when a personal installation with the same name exists. Keep workflow changes here so they travel with the repository. Read only the skills relevant to the request.
 
+## GitHub content Issues
+
+The committed `.github/ISSUE_TEMPLATE/` forms accept news, articles and events in Traditional Chinese. When a task references a content Issue, read [docs/content-issues.md](docs/content-issues.md), then use the corresponding skill above. Preserve the Issue URL as editorial provenance and complete all three locales. Forms collect requests; they do not start an agent or grant automatic publication authorization. Keep repository skill copies authoritative.
+
 ## Locale contract
 
 Every new or edited visitor-facing item must be available in all three locales:

@@ -1,9 +1,13 @@
 ---
 name: cmi-add-news
-description: "Add or update news, announcements, prayer calendars, and ministry updates in the cmicanada.github.io repository, with full three-language coverage and authorized GitHub Pages publication."
+description: "Add or update news from supplied copy or GitHub Issues, announcements, prayer calendars, and ministry updates in the cmicanada.github.io repository, with full three-language coverage and authorized GitHub Pages publication."
 ---
 
 # Add CMI News
+
+## GitHub Issue intake
+
+When the user supplies an Issue number or URL, read [the repository Issue workflow](../../../docs/content-issues.md) before implementing. Read the complete Issue and relevant attachments, use the matching Traditional Chinese form fields as the content brief, and preserve the Issue URL as editorial provenance. Traditional Chinese-only submissions still require complete Simplified Chinese and English delivery. Follow the task’s publication authorization; a form selection alone does not trigger publication.
 
 ## Project and source
 

@@ -1,9 +1,13 @@
 ---
 name: cmi-add-event
-description: "Add or update CMI Canada events, workshops, meetings, posters, registration links, schedules, cancellations, and archives in cmicanada.github.io with Traditional Chinese, Simplified Chinese, and English."
+description: "Add or update CMI Canada events from supplied copy or GitHub Issues, workshops, meetings, posters, registration links, schedules, cancellations, and archives in cmicanada.github.io with Traditional Chinese, Simplified Chinese, and English."
 ---
 
 # Manage CMI Events
+
+## GitHub Issue intake
+
+When the user supplies an Issue number or URL, read [the repository Issue workflow](../../../docs/content-issues.md) before implementing. Read the complete Issue and relevant attachments, use the matching Traditional Chinese form fields as the content brief, and preserve the Issue URL as editorial provenance. Traditional Chinese-only submissions still require complete Simplified Chinese and English delivery. Follow the task’s publication authorization; a form selection alone does not trigger publication.
 
 ## Project and source
 
