@@ -8,14 +8,14 @@
 }
 @font-face {
   font-family: "CMI Noto Sans TC";
-  src: url("/assets/fonts/cmi-noto-sans-tc.woff2?v=c0f06447147a") format("woff2");
+  src: url("/assets/fonts/cmi-noto-sans-tc.woff2?v=cef77a8b62d2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "CMI Noto Sans SC";
-  src: url("/assets/fonts/cmi-noto-sans-sc.woff2?v=54ffbe0cf0e0") format("woff2");
+  src: url("/assets/fonts/cmi-noto-sans-sc.woff2?v=bc335f6d0962") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
