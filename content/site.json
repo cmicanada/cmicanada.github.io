@@ -2963,57 +2963,6 @@
           "alt": "Event"
         }
       ]
-    },
-    {
-      "url": "https://cmicanada.github.io/post/2026-10-20-malaysia-ministry-test",
-      "path": "/post/2026-10-20-malaysia-ministry-test",
-      "title": "炳海牧師在馬來西亞事工 (THIS IS A TEST)",
-      "sourceText": "this is a test msg, I'd like test creating a new post, create an post image in 3 languages",
-      "blocks": [
-        "<p><strong>測試文章：本文用於測試網站發文與三語呈現。</strong></p>",
-        "<p>這是一則測試訊息。我想測試建立新文章，並製作包含繁體中文、簡體中文與英文的文章圖片。</p>"
-      ],
-      "images": [
-        {
-          "src": "/assets/images/issue-19-trilingual-test-poster.png",
-          "alt": "三語測試海報：炳海牧師在馬來西亞事工，包含繁體中文、簡體中文與英文，標示 THIS IS A TEST。"
-        }
-      ],
-      "links": [
-        {
-          "label": "GitHub Issue #19",
-          "href": "https://github.com/cmicanada/cmicanada.github.io/issues/19"
-        }
-      ],
-      "author": "Tom",
-      "published": "2026-10-20T12:00:00-04:00",
-      "category": "會務消息",
-      "ordered": [
-        {
-          "type": "html",
-          "html": "<p><strong>測試文章：本文用於測試網站發文與三語呈現。</strong></p>"
-        },
-        {
-          "type": "html",
-          "html": "<p>這是一則測試訊息。我想測試建立新文章，並製作包含繁體中文、簡體中文與英文的文章圖片。</p>"
-        },
-        {
-          "type": "image",
-          "src": "/assets/images/issue-19-trilingual-test-poster.png",
-          "alt": "三語測試海報：炳海牧師在馬來西亞事工，包含繁體中文、簡體中文與英文，標示 THIS IS A TEST。"
-        }
-      ],
-      "editorialSource": "https://github.com/cmicanada/cmicanada.github.io/issues/19"
-    },
-    {
-      "url": "https://cmicanada.github.io/blog/categories/association-news",
-      "path": "/blog/categories/association-news",
-      "title": "會務消息",
-      "sourceText": "會務消息",
-      "blocks": [],
-      "images": [],
-      "links": [],
-      "editorialSource": "https://github.com/cmicanada/cmicanada.github.io/issues/19"
     }
   ],
   "assets": {
