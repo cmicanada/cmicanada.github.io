@@ -32,7 +32,7 @@ const image = (i, cls = '', lazy = true) => {
  return `<img class="media-image media-${settings.kind} media-fit-${settings.fit} ${cls}" style="--image-position:${settings.focalPoint.map(n=>n+'%').join(' ')}" src="${preview(i.src)}" srcset="${preview(i.src, 480)} 480w, ${preview(i.src)} 960w" sizes="(max-width: 700px) 100vw, 50vw" alt="${esc(i.alt)}" ${lazy ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async">`;
 };
 const arrow = '<span aria-hidden="true">↗</span>';
-const categories = [ ['全部動態', '/blog'], ['會務消息', '/blog/categories/association-news'], ['會長事工報告', '/blog/categories/会长工作报告'], ['代禱月曆', '/blog/categories/代禱'], ['短宣代禱', '/blog/categories/短宣代禱'], ['總幹事宣教心語', '/blog/categories/總幹事宣教心語'] ];
+const categories = [ ['全部動態', '/blog'], ['會長事工報告', '/blog/categories/会长工作报告'], ['代禱月曆', '/blog/categories/代禱'], ['短宣代禱', '/blog/categories/短宣代禱'], ['總幹事宣教心語', '/blog/categories/總幹事宣教心語'] ];
 const ministries = [
   ['/duan-xuan', '短宣訪宣', 'Short-term missions', '與教會同行，走進宣教工場。', get('/programs').images[0]],
   ['/植堂事工', '前方宣教', 'Missions in the field', '在柬埔寨傳揚福音、培訓門徒。', get('/programs').images[1]],
