@@ -107,8 +107,13 @@ for(const locale of locales){
 if(sitemap.includes('https://www.cmicanada.org'))fail('Sitemap points to the original Wix site');
 if(!readFileSync('robots.txt','utf8').includes(`Sitemap: ${origin}/sitemap.xml`))fail('Robots sitemap has wrong origin');
 for(const [,asset] of Object.entries(site.assets)){if(!existsSync('.'+asset))fail(`Missing captured asset ${asset}`);}
-assert.equal(site.pages.length,41);
-assert.equal(site.pages.filter(p=>p.path.startsWith('/post/')).length,16);
+const capture=JSON.parse(readFileSync('content/capture-manifest.json','utf8'));
+assert.equal(site.capturedAt,capture.capturedAt);
+assert.equal(site.routeCount,capture.routes.length);
+for(const route of capture.routes)assert.ok(site.pages.some(p=>p.path===route),'Missing captured route: '+route);
+for(const route of capture.posts)assert.ok(site.pages.some(p=>p.path===route),'Missing captured post: '+route);
+for(const [source,asset] of Object.entries(capture.assets))assert.equal(site.assets[source],asset,'Changed captured media: '+source);
+assert.equal(new Set(site.pages.map(p=>p.path)).size,site.pages.length,'Duplicate routes');
 for(const script of ['assets/email.js','assets/app.js']) if(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i.test(readFileSync(script,'utf8')))fail(`Plain email in browser script: ${script}`);
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
-console.log(`PASS: 126 localized pages, 3 localized 404s/search indexes, same-page language switches, canonical/hreflang links, 16 full reports, ${Object.keys(site.assets).length} originals, imported rich text, local references and anchors.`);
+console.log(`PASS: ${(site.pages.length+1)*locales.length} localized pages, 3 localized 404s/search indexes, same-page language switches, canonical/hreflang links, ${site.pages.filter(p=>p.path.startsWith('/post/')).length} full posts, ${Object.keys(site.assets).length} originals, imported rich text, local references and anchors.`);
