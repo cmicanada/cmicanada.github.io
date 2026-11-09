@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://cmicanada.github.io/sitemap.xml
+Sitemap: https://cmicanada.org/sitemap.xml

@@ -61,8 +61,8 @@ Each skill covers Traditional Chinese (default), generated Simplified Chinese, f
 
 ## Hosting
 
-Publishing destination: [cmicanada.github.io](https://cmicanada.github.io/). GitHub Pages publishes the `master` branch at the repository root. `.nojekyll` serves the generated HTML directly. Build and validate locally before merging a change into `master`; the merge triggers the existing Pages deployment.
+Publishing destination: [cmicanada.org](https://cmicanada.org/). GitHub Pages publishes the `master` branch at the repository root. `.nojekyll` serves the generated HTML directly. Build and validate locally before merging a change into `master`; the merge triggers the existing Pages deployment.
 
-On October 12, 2026, the owner selected `cmicanada.github.io` as the publishing destination. The live `cmicanada.org` remains on Wix. No custom domain is configured for this repository. A future domain cutover should update `content/deployment.json`, rebuild the site, and coordinate the GitHub Pages custom-domain setting with Wix DNS.
+On November 9, 2026, the owner selected `cmicanada.org` as the custom domain and Namecheap BasicDNS for DNS management, replacing Wix hosting. Keep the root `CNAME` file and `content/deployment.json` aligned with this domain. The apex uses GitHub Pages' four A records; `www` points to `cmicanada.github.io`. Preserve the existing mail record when changing website DNS.
 
 Public CMI text and media retain their source ownership. The original template license is retained in `LICENSE` for the repository's historical attribution.
